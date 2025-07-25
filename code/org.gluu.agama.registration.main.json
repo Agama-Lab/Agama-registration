@@ -267,8 +267,18 @@
 						},
 						{
 							"variableTypeCheck": true,
-							"assignmentExpression": "userInput.userPassword",
-							"assignedVariableName": "userPassword"
+							"assignmentExpression": "userInput.referralCode",
+							"assignedVariableName": "referralCode"
+						},
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "userInput.residenceCountry",
+							"assignedVariableName": "residenceCountry"
+						},
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "userInput.phoneNumber",
+							"assignedVariableName": "phone"
 						}
 					],
 					"nodeIcon": "material-symbols:equal",
@@ -284,7 +294,7 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false
 		},
 		{
@@ -1184,7 +1194,7 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": true
+			"selected": false
 		},
 		{
 			"id": "assignmentNode-f1d0cb19-c2fb-41b6-9d83-a69308696bca",
@@ -1852,8 +1862,8 @@
 		}
 	],
 	"viewport": {
-		"x": 726,
-		"y": 10,
-		"zoom": 1
+		"x": 506.2202734284615,
+		"y": -62.63795615967405,
+		"zoom": 0.8681402276010428
 	}
 }
