@@ -1252,7 +1252,7 @@
 				},
 				"previousNodeId": "assignmentNode-8d132c39-d12f-4d76-9064-d40a74250b0b",
 				"agamaData": {
-					"javaClassName": "smsOtpSend",
+					"javaClassName": "call",
 					"javaMethodName": "userRegistrationService sendOTPCode phone",
 					"javaVariableName": "",
 					"exceptionVariableField": "",
@@ -1262,7 +1262,7 @@
 					"nodeColor": "",
 					"titleColor": "",
 					"descColor": "",
-					"displayName": "",
+					"displayName": "smsOtpSend",
 					"hasComment": true,
 					"comment": "sent sms otp"
 				}
@@ -1919,8 +1919,8 @@
 		}
 	],
 	"viewport": {
-		"x": 413.2444630620297,
-		"y": -7.466517401110423,
+		"x": 422.6323284879836,
+		"y": -33.500468715584674,
 		"zoom": 0.5
 	}
 }
