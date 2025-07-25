@@ -958,7 +958,7 @@
 			"type": "callNode",
 			"position": {
 				"x": 445.5633298358522,
-				"y": 183.02632793056398
+				"y": 184.02632793056398
 			},
 			"data": {
 				"id": "callNode-dd90aa5b-fe63-4265-b610-0c8b30fa1ce4",
@@ -1256,7 +1256,7 @@
 					"javaMethodName": "userRegistrationService sendOTPCode phone",
 					"javaVariableName": "",
 					"exceptionVariableField": "",
-					"callType": "Get class object",
+					"callType": "Call static method",
 					"arguments": [],
 					"nodeIcon": "material-symbols:code",
 					"nodeColor": "",
@@ -1265,7 +1265,7 @@
 					"displayName": "",
 					"hasComment": true,
 					"comment": "sent sms otp",
-					"asssignedVariableName": "userRegistrationService sendOTPCode phone"
+					"asssignedVariableName": ""
 				}
 			},
 			"measured": {
@@ -1920,8 +1920,8 @@
 		}
 	],
 	"viewport": {
-		"x": 422.6323284879836,
-		"y": -33.500468715584674,
-		"zoom": 0.5
+		"x": 0,
+		"y": 0,
+		"zoom": 1
 	}
 }
