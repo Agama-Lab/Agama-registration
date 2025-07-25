@@ -1165,7 +1165,7 @@
 				"previousNodeId": "rrfNode-8fae6a8f-1113-41a1-b159-caf0fdeb26d6",
 				"agamaData": {
 					"javaClassName": "org.gluu.agama.user.UserRegistration",
-					"javaMethodName": "getInstance",
+					"javaMethodName": "getInstance conf",
 					"javaVariableName": "",
 					"exceptionVariableField": "",
 					"callType": "Call static method",
@@ -1184,7 +1184,7 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": false
+			"selected": true
 		},
 		{
 			"id": "assignmentNode-f1d0cb19-c2fb-41b6-9d83-a69308696bca",
@@ -1852,8 +1852,8 @@
 		}
 	],
 	"viewport": {
-		"x": 688,
-		"y": 496.5,
-		"zoom": 0.5
+		"x": 726,
+		"y": 10,
+		"zoom": 1
 	}
 }
