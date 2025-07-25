@@ -24,7 +24,7 @@ Repeat 6 times max
      // sent sms otp
      smsOtpSend = Call userRegistrationService sendOTPCode phone 
      // The OTP Code has been send to user.
-     Log "@info OTP generated and send to: " phone otpValidationResult = false
+     Log "@info OTP generated and send to: " phone
      // Check user name policy
      isUsernamePolicyMatch = Call userRegistrationService usernamePolicyMatch userName
      // if username policy match
@@ -81,5 +81,5 @@ Repeat 6 times max
 // Maximum attempt reached
 Log "@info Maximum attempt reached"
 // User Registration flow failed
-it_toole = {success:false, error: "User registration flow reached max attempts try later"}
-Finish it_toole
+it_rnhhx = {success:false, error: "User registration flow reached max attempts try later"}
+Finish it_rnhhx
