@@ -1256,7 +1256,7 @@
 					"javaMethodName": "userRegistrationService sendOTPCode phone",
 					"javaVariableName": "",
 					"exceptionVariableField": "",
-					"callType": "Call static method",
+					"callType": "Create an instance",
 					"arguments": [],
 					"nodeIcon": "material-symbols:code",
 					"nodeColor": "",
