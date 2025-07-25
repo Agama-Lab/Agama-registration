@@ -1253,8 +1253,8 @@
 				"previousNodeId": "assignmentNode-8d132c39-d12f-4d76-9064-d40a74250b0b",
 				"agamaData": {
 					"javaClassName": "smsOtpSend",
-					"javaMethodName": "userRegistrationService sendOTPCode phone",
-					"javaVariableName": null,
+					"javaMethodName": "sendOTPCode phone",
+					"javaVariableName": "userRegistrationService",
 					"exceptionVariableField": "",
 					"callType": "Call method on instance",
 					"arguments": [],
