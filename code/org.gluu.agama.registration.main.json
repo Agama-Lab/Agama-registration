@@ -1256,10 +1256,8 @@
 					"javaMethodName": "userRegistrationService sendOTPCode phone",
 					"javaVariableName": "",
 					"exceptionVariableField": "",
-					"callType": "Create an instance",
-					"arguments": [
-						"uiFeedback"
-					],
+					"callType": "Get class object",
+					"arguments": [],
 					"nodeIcon": "material-symbols:code",
 					"nodeColor": "",
 					"titleColor": "",
