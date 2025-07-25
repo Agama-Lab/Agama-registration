@@ -1254,7 +1254,7 @@
 				"agamaData": {
 					"javaClassName": "smsOtpSend",
 					"javaMethodName": "userRegistrationService sendOTPCode phone",
-					"javaVariableName": "uiFeedback.errorMessage",
+					"javaVariableName": null,
 					"exceptionVariableField": "",
 					"callType": "Call method on instance",
 					"arguments": [],
