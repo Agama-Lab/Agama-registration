@@ -62,7 +62,7 @@
 						},
 						{
 							"variableTypeCheck": true,
-							"assignmentExpression": "\"  \"",
+							"assignmentExpression": "\"\"",
 							"assignedVariableName": "uiFeedback.errorMessage"
 						},
 						{
