@@ -1257,14 +1257,17 @@
 					"javaVariableName": "",
 					"exceptionVariableField": "",
 					"callType": "Create an instance",
-					"arguments": [],
+					"arguments": [
+						"uiFeedback"
+					],
 					"nodeIcon": "material-symbols:code",
 					"nodeColor": "",
 					"titleColor": "",
 					"descColor": "",
 					"displayName": "",
 					"hasComment": true,
-					"comment": "sent sms otp"
+					"comment": "sent sms otp",
+					"asssignedVariableName": "userRegistrationService sendOTPCode phone"
 				}
 			},
 			"measured": {
