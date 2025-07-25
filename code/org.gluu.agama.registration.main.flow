@@ -79,5 +79,5 @@ Repeat 6 times max
 // Maximum attempt reached
 Log "@info Maximum attempt reached"
 // User Registration flow failed
-it_ggrah = {success:false, error: "User registration flow reached max attempts try later"}
-Finish it_ggrah
+it_wkkox = {success:false, error: "User registration flow reached max attempts try later"}
+Finish it_wkkox
