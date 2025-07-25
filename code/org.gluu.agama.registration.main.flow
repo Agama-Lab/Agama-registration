@@ -18,7 +18,9 @@ Repeat 6 times max
      // Assign userName, email and password  to a variable
      email = userInput.mail
      userName = userInput.uid
-     userPassword = userInput.userPassword
+     referralCode = userInput.referralCode
+     residenceCountry = userInput.residenceCountry
+     phone = userInput.phoneNumber
      // Check user name policy
      isUsernamePolicyMatch = Call userRegistrationService usernamePolicyMatch userName
      // if username policy match
@@ -75,5 +77,5 @@ Repeat 6 times max
 // Maximum attempt reached
 Log "@info Maximum attempt reached"
 // User Registration flow failed
-it_jdsjq = {success:false, error: "User registration flow reached max attempts try later"}
-Finish it_jdsjq
+it_rdspu = {success:false, error: "User registration flow reached max attempts try later"}
+Finish it_rdspu
