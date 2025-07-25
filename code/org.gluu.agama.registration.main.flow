@@ -22,7 +22,7 @@ Repeat 6 times max
      residenceCountry = userInput.residenceCountry
      phone = userInput.phoneNumber
      // sent sms otp
-     Call userRegistrationService sendOTPCode phone#smsOtpSend 
+     userRegistrationService sendOTPCode phone = Call smsOtpSend#smsOtpSend 
      // Check user name policy
      isUsernamePolicyMatch = Call userRegistrationService usernamePolicyMatch userName
      // if username policy match
@@ -79,5 +79,5 @@ Repeat 6 times max
 // Maximum attempt reached
 Log "@info Maximum attempt reached"
 // User Registration flow failed
-it_wkkox = {success:false, error: "User registration flow reached max attempts try later"}
-Finish it_wkkox
+it_gebxi = {success:false, error: "User registration flow reached max attempts try later"}
+Finish it_gebxi
