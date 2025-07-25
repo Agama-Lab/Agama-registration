@@ -5,7 +5,7 @@ Flow org.gluu.agama.registration.main
      Configs conf
 // Create  variable for UI feedback
 uiFeedback = {}
-uiFeedback.errorMessage = "  "
+uiFeedback.errorMessage = ""
 emailObj = {}
 sendMail = true
 uiInput = {matches: true, resent: false}
@@ -75,5 +75,5 @@ Repeat 6 times max
 // Maximum attempt reached
 Log "@info Maximum attempt reached"
 // User Registration flow failed
-it_tzizq = {success:false, error: "User registration flow reached max attempts try later"}
-Finish it_tzizq
+it_muhhh = {success:false, error: "User registration flow reached max attempts try later"}
+Finish it_muhhh
