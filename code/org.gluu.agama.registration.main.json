@@ -1292,7 +1292,7 @@
 				},
 				"previousNodeId": "callNode-df9e95ff-6cf5-4e7c-91a1-734525fe077a",
 				"agamaData": {
-					"logMessage": "\"OTP generated and send to: \" phone",
+					"logMessage": "\"OTP generated and send to: \" phone otpValidationResult = false",
 					"logLevel": "info",
 					"nodeIcon": "octicon:log-16",
 					"nodeColor": "",
