@@ -79,5 +79,5 @@ Repeat 6 times max
 // Maximum attempt reached
 Log "@info Maximum attempt reached"
 // User Registration flow failed
-it_qlitq = {success:false, error: "User registration flow reached max attempts try later"}
-Finish it_qlitq
+it_iomgj = {success:false, error: "User registration flow reached max attempts try later"}
+Finish it_iomgj
