@@ -1413,7 +1413,7 @@
 					"displayName": "",
 					"hasComment": true,
 					"comment": "Validate the OTP code provided by the user.",
-					"asssignedVariableName": "validateOTPCode"
+					"asssignedVariableName": "otpValidationResult"
 				}
 			},
 			"measured": {
