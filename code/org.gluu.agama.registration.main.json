@@ -1402,7 +1402,7 @@
 				"agamaData": {
 					"javaClassName": "otpValidationResult",
 					"javaMethodName": "phone otpCreds.code",
-					"javaVariableName": "userRegistrationService",
+					"javaVariableName": "validateOTPCode",
 					"exceptionVariableField": "",
 					"callType": "Call method on instance",
 					"arguments": [],
@@ -2144,7 +2144,7 @@
 		}
 	],
 	"viewport": {
-		"x": -48.5,
+		"x": -47.5,
 		"y": 73.5,
 		"zoom": 0.5
 	}
