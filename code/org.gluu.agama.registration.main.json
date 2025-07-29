@@ -693,8 +693,8 @@
 			"id": "logNode-9df0e3c1-8f8a-462e-a1c5-baf340049644",
 			"type": "logNode",
 			"position": {
-				"x": 1432.0806537433248,
-				"y": 434.2094283334293
+				"x": 1458.0806537433248,
+				"y": 492.2094283334293
 			},
 			"data": {
 				"id": "logNode-9df0e3c1-8f8a-462e-a1c5-baf340049644",
@@ -961,8 +961,8 @@
 			"id": "callNode-dd90aa5b-fe63-4265-b610-0c8b30fa1ce4",
 			"type": "callNode",
 			"position": {
-				"x": 1015.5633298358522,
-				"y": 156.02632793056398
+				"x": 1211.563329835852,
+				"y": 174.02632793056398
 			},
 			"data": {
 				"id": "callNode-dd90aa5b-fe63-4265-b610-0c8b30fa1ce4",
@@ -971,7 +971,7 @@
 					"x": 903.2633410039799,
 					"y": 314.2487871814564
 				},
-				"previousNodeId": "logNode-48465d7f-21e3-477d-a4ec-6a2b755e4503",
+				"previousNodeId": "callNode-844218f8-145c-4c38-ba7f-9f17162a4c1a",
 				"agamaData": {
 					"javaClassName": "",
 					"javaMethodName": "usernamePolicyMatch",
@@ -1002,8 +1002,8 @@
 			"id": "whenNode-195e159f-c372-46d0-9e14-dabbaac215cf",
 			"type": "whenNode",
 			"position": {
-				"x": 1167.0561676792236,
-				"y": 208.91665369898882
+				"x": 1399.0561676792236,
+				"y": 164.91665369898882
 			},
 			"data": {
 				"id": "whenNode-195e159f-c372-46d0-9e14-dabbaac215cf",
@@ -1205,8 +1205,8 @@
 			"id": "assignmentNode-f1d0cb19-c2fb-41b6-9d83-a69308696bca",
 			"type": "assignmentNode",
 			"position": {
-				"x": 1180.1945654362905,
-				"y": 415.1531831239439
+				"x": 1184.1945654362905,
+				"y": 481.1531831239439
 			},
 			"data": {
 				"id": "assignmentNode-f1d0cb19-c2fb-41b6-9d83-a69308696bca",
@@ -1380,6 +1380,44 @@
 			"measured": {
 				"width": 168,
 				"height": 120
+			},
+			"selected": false,
+			"dragging": false
+		},
+		{
+			"id": "callNode-844218f8-145c-4c38-ba7f-9f17162a4c1a",
+			"type": "callNode",
+			"position": {
+				"x": 1019.8592471103013,
+				"y": 173.25435100725122
+			},
+			"data": {
+				"id": "callNode-844218f8-145c-4c38-ba7f-9f17162a4c1a",
+				"type": "callNode",
+				"position": {
+					"x": 1071.8592471103013,
+					"y": 169.25435100725122
+				},
+				"previousNodeId": "logNode-48465d7f-21e3-477d-a4ec-6a2b755e4503",
+				"agamaData": {
+					"javaClassName": "otpValidationResult",
+					"javaMethodName": "Call userRegistrationService validateOTPCode phone otpCreds.code",
+					"javaVariableName": "",
+					"exceptionVariableField": "",
+					"callType": "Call static method",
+					"arguments": [],
+					"nodeIcon": "material-symbols:code",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "Validate the OTP code provided by the user."
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 124
 			},
 			"selected": true,
 			"dragging": false
@@ -2066,9 +2104,28 @@
 			"sourceHandle": "source_rrfNode-3ac9359a-b09c-4618-be82-913f1c40aab6"
 		},
 		{
-			"id": "logNode-48465d7f-21e3-477d-a4ec-6a2b755e4503-callNode-dd90aa5b-fe63-4265-b610-0c8b30fa1ce4",
+			"id": "logNode-48465d7f-21e3-477d-a4ec-6a2b755e4503-callNode-844218f8-145c-4c38-ba7f-9f17162a4c1a",
 			"type": "default",
 			"source": "logNode-48465d7f-21e3-477d-a4ec-6a2b755e4503",
+			"target": "callNode-844218f8-145c-4c38-ba7f-9f17162a4c1a",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_logNode-48465d7f-21e3-477d-a4ec-6a2b755e4503"
+		},
+		{
+			"id": "callNode-844218f8-145c-4c38-ba7f-9f17162a4c1a-callNode-dd90aa5b-fe63-4265-b610-0c8b30fa1ce4",
+			"type": "default",
+			"source": "callNode-844218f8-145c-4c38-ba7f-9f17162a4c1a",
 			"target": "callNode-dd90aa5b-fe63-4265-b610-0c8b30fa1ce4",
 			"label": "",
 			"labelBgPadding": [
@@ -2081,7 +2138,7 @@
 				"color": "#ffffff",
 				"fillOpacity": 0.7
 			},
-			"sourceHandle": "source_logNode-48465d7f-21e3-477d-a4ec-6a2b755e4503",
+			"sourceHandle": "source_callNode-844218f8-145c-4c38-ba7f-9f17162a4c1a",
 			"targetHandle": "target_callNode-dd90aa5b-fe63-4265-b610-0c8b30fa1ce4"
 		}
 	],
