@@ -30,7 +30,7 @@ Repeat 6 times max
      // Add log entry with collected code in log file.
      Log "@info Information provided by the user is : " otpCreds.code
      // Validate the OTP code provided by the user.
-     Call otpValidationResult#Call userRegistrationService validateOTPCode phone otpCreds.code 
+     Call otpValidationResult#userRegistrationService validateOTPCode phone otpCreds.code 
      // Check user name policy
      isUsernamePolicyMatch = Call userRegistrationService usernamePolicyMatch userName
      // if username policy match
@@ -87,5 +87,5 @@ Repeat 6 times max
 // Maximum attempt reached
 Log "@info Maximum attempt reached"
 // User Registration flow failed
-it_jkwqx = {success:false, error: "User registration flow reached max attempts try later"}
-Finish it_jkwqx
+it_igsyh = {success:false, error: "User registration flow reached max attempts try later"}
+Finish it_igsyh
