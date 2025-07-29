@@ -1401,7 +1401,7 @@
 				"previousNodeId": "logNode-48465d7f-21e3-477d-a4ec-6a2b755e4503",
 				"agamaData": {
 					"javaClassName": "otpValidationResult",
-					"javaMethodName": "validateOTPCode phone otpCreds.code",
+					"javaMethodName": "phone otpCreds.code",
 					"javaVariableName": "userRegistrationService",
 					"exceptionVariableField": "",
 					"callType": "Call method on instance",
@@ -1412,7 +1412,8 @@
 					"descColor": "",
 					"displayName": "",
 					"hasComment": true,
-					"comment": "Validate the OTP code provided by the user."
+					"comment": "Validate the OTP code provided by the user.",
+					"asssignedVariableName": "validateOTPCode"
 				}
 			},
 			"measured": {
