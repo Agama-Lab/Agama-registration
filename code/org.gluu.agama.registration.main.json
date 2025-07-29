@@ -1366,7 +1366,7 @@
 				},
 				"previousNodeId": "rrfNode-3ac9359a-b09c-4618-be82-913f1c40aab6",
 				"agamaData": {
-					"logMessage": "Information provided by the user is : \" otpCreds.code",
+					"logMessage": "\"Information provided by the user is : \" otpCreds.code",
 					"logLevel": "info",
 					"nodeIcon": "octicon:log-16",
 					"nodeColor": "",
@@ -1378,8 +1378,8 @@
 				}
 			},
 			"measured": {
-				"width": 170,
-				"height": 124
+				"width": 168,
+				"height": 120
 			},
 			"selected": true,
 			"dragging": false
