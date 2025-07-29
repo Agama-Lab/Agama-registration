@@ -28,7 +28,7 @@ Repeat 6 times max
      // Show UI to collect OTP code from user.
      RRF "smsOtp.ftlh" uiFeedback
      // Add log entry with collected code in log file.
-     Log "@info " Information provided by the user is : " otpCreds.code
+     Log "@info Information provided by the user is : " otpCreds.code
      // Check user name policy
      isUsernamePolicyMatch = Call userRegistrationService usernamePolicyMatch userName
      // if username policy match
@@ -85,5 +85,5 @@ Repeat 6 times max
 // Maximum attempt reached
 Log "@info Maximum attempt reached"
 // User Registration flow failed
-it_jplxi = {success:false, error: "User registration flow reached max attempts try later"}
-Finish it_jplxi
+it_tbgnc = {success:false, error: "User registration flow reached max attempts try later"}
+Finish it_tbgnc
