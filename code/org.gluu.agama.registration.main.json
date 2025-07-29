@@ -1401,7 +1401,7 @@
 				"previousNodeId": "logNode-48465d7f-21e3-477d-a4ec-6a2b755e4503",
 				"agamaData": {
 					"javaClassName": "otpValidationResult",
-					"javaMethodName": "phone otpCreds.code",
+					"javaMethodName": "validateOTPCode phone otpCreds.code",
 					"javaVariableName": "userRegistrationService",
 					"exceptionVariableField": "",
 					"callType": "Call method on instance",
