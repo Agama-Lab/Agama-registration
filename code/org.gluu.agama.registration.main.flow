@@ -26,7 +26,7 @@ Repeat 6 times max
      // The OTP Code has been send to user.
      Log "@info OTP generated and send to: " phone
      otpValidationResult = false
-     Repeat 3 times max
+     max = Repeat 3 times max
      // Show UI to collect OTP code from user.
      RRF "smsOtp.ftlh" uiFeedback
      // Add log entry with collected code in log file.
@@ -89,5 +89,5 @@ Repeat 6 times max
 // Maximum attempt reached
 Log "@info Maximum attempt reached"
 // User Registration flow failed
-it_avlhe = {success:false, error: "User registration flow reached max attempts try later"}
-Finish it_avlhe
+it_ifbzk = {success:false, error: "User registration flow reached max attempts try later"}
+Finish it_ifbzk
