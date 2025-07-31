@@ -1482,7 +1482,7 @@
 				"agamaData": {
 					"nodeIcon": "material-symbols:event-repeat-outline-rounded",
 					"maxIteration": "3",
-					"maxIterationVariableName": "",
+					"maxIterationVariableName": "max",
 					"nodeColor": "",
 					"titleColor": "",
 					"descColor": "",
