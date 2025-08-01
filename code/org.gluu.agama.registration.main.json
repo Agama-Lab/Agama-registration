@@ -1519,7 +1519,7 @@
 				},
 				"previousNodeId": "callNode-844218f8-145c-4c38-ba7f-9f17162a4c1a",
 				"agamaData": {
-					"logMessage": "\"@info OTP validation result is:\" otpValidationResult",
+					"logMessage": "\"OTP validation result is:\" otpValidationResult",
 					"logLevel": "info",
 					"nodeIcon": "octicon:log-16",
 					"nodeColor": "",
@@ -2309,8 +2309,8 @@
 		}
 	],
 	"viewport": {
-		"x": -384.96229549954023,
-		"y": -46.69159701117337,
+		"x": -246.5,
+		"y": -129.71499580510715,
 		"zoom": 0.5
 	}
 }
