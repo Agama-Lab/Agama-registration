@@ -36,7 +36,7 @@ Repeat 6 times max
           // Add log entry with validation result in log file.
           Log "@info OTP validation result is:" otpValidationResult
           // The maximum number of attempt has been reached.
-          Log "@trace @error Invalid code provided "
+          Log "@error Invalid code provided "
           // Check user name policy
           isUsernamePolicyMatch = Call userRegistrationService usernamePolicyMatch userName
           // if username policy match
@@ -93,5 +93,5 @@ Repeat 6 times max
 // Maximum attempt reached
 Log "@info Maximum attempt reached"
 // User Registration flow failed
-it_ctmeq = {success:false, error: "User registration flow reached max attempts try later"}
-Finish it_ctmeq
+it_lrldt = {success:false, error: "User registration flow reached max attempts try later"}
+Finish it_lrldt
