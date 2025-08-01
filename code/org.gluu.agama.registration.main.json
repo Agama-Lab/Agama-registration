@@ -1553,8 +1553,8 @@
 				},
 				"previousNodeId": "logNode-ca4920d4-6e75-4690-8f1b-ac13e1ad61a8",
 				"agamaData": {
-					"logMessage": "\"@error Invalid code provided \"",
-					"logLevel": "trace",
+					"logMessage": "\"Invalid code provided \"",
+					"logLevel": "error",
 					"nodeIcon": "octicon:log-16",
 					"nodeColor": "",
 					"titleColor": "",
@@ -2363,8 +2363,8 @@
 		}
 	],
 	"viewport": {
-		"x": -499.5,
-		"y": -146.71499580510715,
+		"x": -518.5,
+		"y": -153.71499580510715,
 		"zoom": 0.5
 	}
 }
