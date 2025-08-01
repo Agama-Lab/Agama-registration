@@ -1534,7 +1534,7 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false
 		},
 		{
@@ -1557,21 +1557,23 @@
 					"assignments": [],
 					"nodeIcon": "ph:globe-simple",
 					"templatePath": "smsOtp.ftlh",
-					"asssignedVariableName": "",
+					"asssignedVariableName": "otpCreds",
 					"nodeColor": "",
 					"titleColor": "",
 					"descColor": "",
 					"displayName": "",
 					"hasComment": true,
 					"comment": "Show UI to collect OTP code from user.",
-					"arguments": "uiFeedback"
+					"arguments": [
+						"uiFeedback"
+					]
 				}
 			},
 			"measured": {
 				"width": 170,
 				"height": 124
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false
 		}
 	],
@@ -2309,8 +2311,8 @@
 		}
 	],
 	"viewport": {
-		"x": -246.5,
-		"y": -129.71499580510715,
+		"x": -85.5,
+		"y": 50.28500419489285,
 		"zoom": 0.5
 	}
 }
