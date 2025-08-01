@@ -1239,7 +1239,7 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false
 		},
 		{
@@ -1553,21 +1553,22 @@
 				},
 				"previousNodeId": "logNode-ca4920d4-6e75-4690-8f1b-ac13e1ad61a8",
 				"agamaData": {
-					"logMessage": "",
-					"logLevel": "",
+					"logMessage": "\"@error Invalid code provided \"",
+					"logLevel": "trace",
 					"nodeIcon": "octicon:log-16",
 					"nodeColor": "",
 					"titleColor": "",
 					"descColor": "",
 					"displayName": "",
 					"hasComment": true,
-					"comment": ""
+					"comment": "The maximum number of attempt has been reached."
 				}
 			},
 			"measured": {
 				"width": 170,
 				"height": 124
-			}
+			},
+			"selected": true
 		},
 		{
 			"id": "rrfNode-e547ed6b-abf5-4d6a-8185-af4efd5533f4",
