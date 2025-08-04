@@ -42,5 +42,5 @@ Repeat 6 times max
 // Maximum attempt reached
 Log "@info Maximum attempt reached"
 // User Registration flow failed
-it_whtmp = {success:false, error: "User registration flow reached max attempts try later"}
-Finish it_whtmp
+it_bbkud = {success:false, error: "User registration flow reached max attempts try later"}
+Finish it_bbkud
