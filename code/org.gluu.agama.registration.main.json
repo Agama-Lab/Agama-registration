@@ -961,7 +961,7 @@
 			"id": "callNode-dd90aa5b-fe63-4265-b610-0c8b30fa1ce4",
 			"type": "callNode",
 			"position": {
-				"x": 1756.7894858821317,
+				"x": 2006.7894858821317,
 				"y": 463.98597493268187
 			},
 			"data": {
@@ -971,7 +971,7 @@
 					"x": 903.2633410039799,
 					"y": 314.2487871814564
 				},
-				"previousNodeId": "logNode-e24c683f-1326-492f-86d3-524b4c6cc8de",
+				"previousNodeId": "assignmentNode-d7a4d968-c21b-4efe-9261-e800f7a81735",
 				"agamaData": {
 					"javaClassName": "",
 					"javaMethodName": "usernamePolicyMatch",
@@ -1002,7 +1002,7 @@
 			"id": "whenNode-195e159f-c372-46d0-9e14-dabbaac215cf",
 			"type": "whenNode",
 			"position": {
-				"x": 1998.2529840872703,
+				"x": 2248.2529840872703,
 				"y": 470.3836356106651
 			},
 			"data": {
@@ -1507,8 +1507,8 @@
 			"id": "logNode-ca4920d4-6e75-4690-8f1b-ac13e1ad61a8",
 			"type": "logNode",
 			"position": {
-				"x": 1057.7247664381905,
-				"y": 653.7176764594593
+				"x": 885.7247664381905,
+				"y": 675.7176764594593
 			},
 			"data": {
 				"id": "logNode-ca4920d4-6e75-4690-8f1b-ac13e1ad61a8",
@@ -1541,8 +1541,8 @@
 			"id": "logNode-4bf6b2d6-58f4-4aba-900a-ddf2a68cb871",
 			"type": "logNode",
 			"position": {
-				"x": 1271.7247664381905,
-				"y": 655.7176764594593
+				"x": 1113.7247664381905,
+				"y": 669.7176764594593
 			},
 			"data": {
 				"id": "logNode-4bf6b2d6-58f4-4aba-900a-ddf2a68cb871",
@@ -1575,8 +1575,8 @@
 			"id": "logNode-e24c683f-1326-492f-86d3-524b4c6cc8de",
 			"type": "logNode",
 			"position": {
-				"x": 1513.7247664381905,
-				"y": 635.7176764594593
+				"x": 1355.7247664381905,
+				"y": 661.7176764594593
 			},
 			"data": {
 				"id": "logNode-e24c683f-1326-492f-86d3-524b4c6cc8de",
@@ -1602,8 +1602,46 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false
+		},
+		{
+			"id": "assignmentNode-d7a4d968-c21b-4efe-9261-e800f7a81735",
+			"type": "assignmentNode",
+			"position": {
+				"x": 1585.7247664381905,
+				"y": 655.7176764594593
+			},
+			"data": {
+				"id": "assignmentNode-d7a4d968-c21b-4efe-9261-e800f7a81735",
+				"type": "assignmentNode",
+				"position": {
+					"x": 1585.7247664381905,
+					"y": 655.7176764594593
+				},
+				"previousNodeId": "logNode-e24c683f-1326-492f-86d3-524b4c6cc8de",
+				"agamaData": {
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "otpValidationResult",
+							"assignedVariableName": "isPhoneVerified"
+						}
+					],
+					"nodeIcon": "material-symbols:equal",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": ""
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 124
+			},
+			"selected": true
 		},
 		{
 			"id": "rrfNode-e547ed6b-abf5-4d6a-8185-af4efd5533f4",
@@ -2397,9 +2435,28 @@
 			"sourceHandle": "source_logNode-4bf6b2d6-58f4-4aba-900a-ddf2a68cb871"
 		},
 		{
-			"id": "logNode-e24c683f-1326-492f-86d3-524b4c6cc8de-callNode-dd90aa5b-fe63-4265-b610-0c8b30fa1ce4",
+			"id": "logNode-e24c683f-1326-492f-86d3-524b4c6cc8de-assignmentNode-d7a4d968-c21b-4efe-9261-e800f7a81735",
 			"type": "default",
 			"source": "logNode-e24c683f-1326-492f-86d3-524b4c6cc8de",
+			"target": "assignmentNode-d7a4d968-c21b-4efe-9261-e800f7a81735",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_logNode-e24c683f-1326-492f-86d3-524b4c6cc8de"
+		},
+		{
+			"id": "assignmentNode-d7a4d968-c21b-4efe-9261-e800f7a81735-callNode-dd90aa5b-fe63-4265-b610-0c8b30fa1ce4",
+			"type": "default",
+			"source": "assignmentNode-d7a4d968-c21b-4efe-9261-e800f7a81735",
 			"target": "callNode-dd90aa5b-fe63-4265-b610-0c8b30fa1ce4",
 			"label": "",
 			"labelBgPadding": [
@@ -2412,13 +2469,13 @@
 				"color": "#ffffff",
 				"fillOpacity": 0.7
 			},
-			"sourceHandle": "source_logNode-e24c683f-1326-492f-86d3-524b4c6cc8de",
+			"sourceHandle": "source_assignmentNode-d7a4d968-c21b-4efe-9261-e800f7a81735",
 			"targetHandle": "target_callNode-dd90aa5b-fe63-4265-b610-0c8b30fa1ce4"
 		}
 	],
 	"viewport": {
-		"x": -494.14873070055955,
-		"y": -156.2728122320733,
+		"x": -368.14873070055955,
+		"y": 59.727187767926694,
 		"zoom": 0.5
 	}
 }
