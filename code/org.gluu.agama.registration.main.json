@@ -987,7 +987,7 @@
 					"descColor": "",
 					"displayName": "",
 					"hasComment": true,
-					"comment": "Check user name policy",
+					"comment": "check user name policy",
 					"asssignedVariableName": "isUsernamePolicyMatch"
 				}
 			},
@@ -995,7 +995,7 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false
 		},
 		{
@@ -1641,7 +1641,7 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": true
+			"selected": false
 		},
 		{
 			"id": "rrfNode-e547ed6b-abf5-4d6a-8185-af4efd5533f4",
@@ -2474,8 +2474,8 @@
 		}
 	],
 	"viewport": {
-		"x": -368.14873070055955,
-		"y": 59.727187767926694,
+		"x": -442.14873070055955,
+		"y": -191.2728122320733,
 		"zoom": 0.5
 	}
 }
