@@ -1587,7 +1587,7 @@
 				},
 				"previousNodeId": "logNode-4bf6b2d6-58f4-4aba-900a-ddf2a68cb871",
 				"agamaData": {
-					"logMessage": "uiFeedback.errorMessage = \"Invalid code provided.\"",
+					"logMessage": "uiFeedback.errorMessage = \"Invalid code provided.",
 					"logLevel": "info",
 					"nodeIcon": "octicon:log-16",
 					"nodeColor": "",
@@ -1599,8 +1599,8 @@
 				}
 			},
 			"measured": {
-				"width": 170,
-				"height": 124
+				"width": 168,
+				"height": 120
 			},
 			"selected": true,
 			"dragging": false
@@ -2456,8 +2456,8 @@
 		}
 	],
 	"viewport": {
-		"x": -413.4893179551236,
-		"y": 30.29286035131122,
+		"x": -313.4893179551236,
+		"y": -21.70713964868878,
 		"zoom": 0.5
 	}
 }
