@@ -1663,7 +1663,7 @@
 					"assignments": [
 						{
 							"variableTypeCheck": true,
-							"assignmentExpression": "{}",
+							"assignmentExpression": "\"Invalid code provided.\"",
 							"assignedVariableName": "uiFeedback.errorMessage"
 						}
 					],
