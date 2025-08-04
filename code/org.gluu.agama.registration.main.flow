@@ -40,7 +40,7 @@ Repeat 6 times max
           // Provide feedback to user.
           Log "@info OTP verification loop completed"
           isPhoneVerified = otpValidationResult
-          // Check user name policy
+          // check user name policy
           isUsernamePolicyMatch = Call userRegistrationService usernamePolicyMatch userName
           // if username policy match
           When isUsernamePolicyMatch is true
@@ -96,5 +96,5 @@ Repeat 6 times max
 // Maximum attempt reached
 Log "@info Maximum attempt reached"
 // User Registration flow failed
-it_xgsux = {success:false, error: "User registration flow reached max attempts try later"}
-Finish it_xgsux
+it_zkqwy = {success:false, error: "User registration flow reached max attempts try later"}
+Finish it_zkqwy
