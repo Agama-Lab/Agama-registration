@@ -1587,7 +1587,7 @@
 				},
 				"previousNodeId": "logNode-4bf6b2d6-58f4-4aba-900a-ddf2a68cb871",
 				"agamaData": {
-					"logMessage": "uiFeedback.errorMessage = \"Invalid code provided.",
+					"logMessage": "\"OTP verification loop completed\"",
 					"logLevel": "info",
 					"nodeIcon": "octicon:log-16",
 					"nodeColor": "",
@@ -2456,8 +2456,8 @@
 		}
 	],
 	"viewport": {
-		"x": -313.4893179551236,
-		"y": -21.70713964868878,
+		"x": 139.5,
+		"y": -133.5,
 		"zoom": 0.5
 	}
 }
