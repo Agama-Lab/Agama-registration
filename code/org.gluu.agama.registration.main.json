@@ -1587,7 +1587,7 @@
 				},
 				"previousNodeId": "logNode-4bf6b2d6-58f4-4aba-900a-ddf2a68cb871",
 				"agamaData": {
-					"logMessage": "\"OTP verification loop completed\"",
+					"logMessage": "uiFeedback.errorMessage = \"Invalid code provided.\"",
 					"logLevel": "info",
 					"nodeIcon": "octicon:log-16",
 					"nodeColor": "",
@@ -1602,7 +1602,7 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false
 		},
 		{
@@ -1649,7 +1649,7 @@
 			"type": "assignmentNode",
 			"position": {
 				"x": 1147.7247664381905,
-				"y": 409.7176764594593
+				"y": 411.7176764594593
 			},
 			"data": {
 				"id": "assignmentNode-fbb883ce-6a3b-4005-8e3d-4908f566ce28",
@@ -1680,7 +1680,7 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false
 		}
 	],
@@ -2456,8 +2456,8 @@
 		}
 	],
 	"viewport": {
-		"x": -124.86814022760109,
-		"y": 24.888719544797908,
+		"x": -413.4893179551236,
+		"y": 30.29286035131122,
 		"zoom": 0.5
 	}
 }
