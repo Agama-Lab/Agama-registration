@@ -121,5 +121,5 @@ Repeat 6 times max
 // Maximum attempt reached
 Log "@info Maximum attempt reached"
 // User Registration flow failed
-it_vdxhk = {success:false, error: "User registration flow reached max attempts try later"}
-Finish it_vdxhk
+it_pisvx = {success:false, error: "User registration flow reached max attempts try later"}
+Finish it_pisvx
