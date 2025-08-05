@@ -381,7 +381,7 @@
 				"width": 110,
 				"height": 60
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false
 		},
 		{
@@ -2709,7 +2709,42 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": true
+			"selected": false
+		},
+		{
+			"id": "logNode-8e332c27-83e9-43f4-94dd-4309f215fd89",
+			"type": "logNode",
+			"position": {
+				"x": 5234.845648669217,
+				"y": 1782.9099312765914
+			},
+			"data": {
+				"id": "logNode-8e332c27-83e9-43f4-94dd-4309f215fd89",
+				"type": "logNode",
+				"position": {
+					"x": 5192.845648669217,
+					"y": 1834.9099312765914
+				},
+				"previousNodeId": "whenNode-db1186ee-da20-47ef-b9c8-4f0285525351",
+				"branching": "continue",
+				"agamaData": {
+					"logMessage": "\"User registration failed. Error : %\" E",
+					"logLevel": "info",
+					"nodeIcon": "octicon:log-16",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "Registration failed log"
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 124
+			},
+			"selected": false,
+			"dragging": false
 		}
 	],
 	"edges": [
@@ -3973,11 +4008,30 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_logNode-8453cb95-a19d-4962-98ed-d770f9c287ec"
+		},
+		{
+			"id": "whenNode-db1186ee-da20-47ef-b9c8-4f0285525351-logNode-8e332c27-83e9-43f4-94dd-4309f215fd89",
+			"type": "default",
+			"source": "whenNode-db1186ee-da20-47ef-b9c8-4f0285525351",
+			"target": "logNode-8e332c27-83e9-43f4-94dd-4309f215fd89",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "continue",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_whenNode-db1186ee-da20-47ef-b9c8-4f0285525351_continue"
 		}
 	],
 	"viewport": {
-		"x": -2133.397321926492,
-		"y": -913.0361160023363,
+		"x": -2115.397321926492,
+		"y": -774.0361160023363,
 		"zoom": 0.5
 	}
 }
