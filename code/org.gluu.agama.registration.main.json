@@ -501,7 +501,7 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false
 		},
 		{
@@ -2288,8 +2288,8 @@
 			"id": "assignmentNode-2a37e887-c294-4a03-9d13-3233416d319c",
 			"type": "assignmentNode",
 			"position": {
-				"x": 3718.0011004814705,
-				"y": 1957.2938516065612
+				"x": 3763.144392316725,
+				"y": 1939.9310470545404
 			},
 			"data": {
 				"id": "assignmentNode-2a37e887-c294-4a03-9d13-3233416d319c",
@@ -2328,6 +2328,41 @@
 			},
 			"selected": false,
 			"dragging": false
+		},
+		{
+			"id": "rrfNode-31907a4d-bb5e-4b5e-b18c-22e674a55f37",
+			"type": "rrfNode",
+			"position": {
+				"x": 4013.144392316725,
+				"y": 1939.9310470545404
+			},
+			"data": {
+				"id": "rrfNode-31907a4d-bb5e-4b5e-b18c-22e674a55f37",
+				"type": "rrfNode",
+				"position": {
+					"x": 4013.144392316725,
+					"y": 1939.9310470545404
+				},
+				"previousNodeId": "assignmentNode-2a37e887-c294-4a03-9d13-3233416d319c",
+				"agamaData": {
+					"assignments": [],
+					"nodeIcon": "ph:globe-simple",
+					"templatePath": "emailOtp.ftlh",
+					"asssignedVariableName": "uiInput",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "Redirect to page asking for OTP received using email",
+					"arguments": "emailObj"
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 124
+			},
+			"selected": true
 		}
 	],
 	"edges": [
@@ -3401,11 +3436,30 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_repeatNode-6f794b48-182a-4340-9e3e-4cfaa40508d3_repeat"
+		},
+		{
+			"id": "assignmentNode-2a37e887-c294-4a03-9d13-3233416d319c-rrfNode-31907a4d-bb5e-4b5e-b18c-22e674a55f37",
+			"type": "default",
+			"source": "assignmentNode-2a37e887-c294-4a03-9d13-3233416d319c",
+			"target": "rrfNode-31907a4d-bb5e-4b5e-b18c-22e674a55f37",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_assignmentNode-2a37e887-c294-4a03-9d13-3233416d319c"
 		}
 	],
 	"viewport": {
-		"x": -1566.15441993176,
-		"y": -569.256529399049,
+		"x": -1763.15441993176,
+		"y": -893.256529399049,
 		"zoom": 0.5759438211746787
 	}
 }
