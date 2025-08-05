@@ -39,11 +39,9 @@ Repeat 6 times max
           // The maximum number of attempt has been reached.
           Log "@error Invalid code provided "
           // Provide feedback to user.
-          Log "@info OTP verification loop completed"
-          // Provide feedback to user.
           uiFeedback.errorMessage = "Invalid code provided."
 // Maximum attempt reached
 Log "@info Maximum attempt reached"
 // User Registration flow failed
-it_jsozi = {success:false, error: "User registration flow reached max attempts try later"}
-Finish it_jsozi
+it_eexwk = {success:false, error: "User registration flow reached max attempts try later"}
+Finish it_eexwk
