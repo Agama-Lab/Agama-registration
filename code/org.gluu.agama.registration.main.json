@@ -2241,8 +2241,46 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false
+		},
+		{
+			"id": "assignmentNode-36fc2de2-71fc-418f-9081-a1da4d564bd0",
+			"type": "assignmentNode",
+			"position": {
+				"x": 2602.2529840872703,
+				"y": 102.433653921212
+			},
+			"data": {
+				"id": "assignmentNode-36fc2de2-71fc-418f-9081-a1da4d564bd0",
+				"type": "assignmentNode",
+				"position": {
+					"x": 2602.2529840872703,
+					"y": 102.433653921212
+				},
+				"previousNodeId": "logNode-d8ee44e9-a475-49d2-9f2c-530a94d3c08f",
+				"agamaData": {
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "\"User already registered with this UserName\"",
+							"assignedVariableName": "uiFeedback.errorMessage"
+						}
+					],
+					"nodeIcon": "material-symbols:equal",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "User already registered with UID"
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 124
+			},
+			"selected": true
 		}
 	],
 	"edges": [
@@ -3302,11 +3340,30 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_whenNode-4fedb1a0-8c54-4965-a1ba-ed1d5cf34bcd_otherwise"
+		},
+		{
+			"id": "logNode-d8ee44e9-a475-49d2-9f2c-530a94d3c08f-assignmentNode-36fc2de2-71fc-418f-9081-a1da4d564bd0",
+			"type": "default",
+			"source": "logNode-d8ee44e9-a475-49d2-9f2c-530a94d3c08f",
+			"target": "assignmentNode-36fc2de2-71fc-418f-9081-a1da4d564bd0",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_logNode-d8ee44e9-a475-49d2-9f2c-530a94d3c08f"
 		}
 	],
 	"viewport": {
-		"x": -740.8575757223948,
-		"y": -10.839589077595633,
-		"zoom": 0.5
+		"x": -1233.497049676946,
+		"y": -15.616874813771545,
+		"zoom": 0.7641882603825831
 	}
 }
