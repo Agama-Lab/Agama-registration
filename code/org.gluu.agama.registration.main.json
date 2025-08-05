@@ -1900,7 +1900,7 @@
 				"branching": "otherwise",
 				"agamaData": {
 					"javaClassName": "",
-					"javaMethodName": "getUserEntityByUsername userName",
+					"javaMethodName": "getUserEntityByUsername",
 					"javaVariableName": "userRegistrationService",
 					"exceptionVariableField": "",
 					"callType": "Call method on instance",
