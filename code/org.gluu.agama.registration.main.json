@@ -2246,7 +2246,7 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": true
+			"selected": false
 		},
 		{
 			"id": "repeatNode-6f794b48-182a-4340-9e3e-4cfaa40508d3",
@@ -2280,6 +2280,51 @@
 				"height": 124
 			},
 			"selected": false
+		},
+		{
+			"id": "assignmentNode-2a37e887-c294-4a03-9d13-3233416d319c",
+			"type": "assignmentNode",
+			"position": {
+				"x": 3935.0361573817313,
+				"y": 2007.6459848074217
+			},
+			"data": {
+				"id": "assignmentNode-2a37e887-c294-4a03-9d13-3233416d319c",
+				"type": "assignmentNode",
+				"position": {
+					"x": 4011.4324974106235,
+					"y": 2016.327387083432
+				},
+				"previousNodeId": "repeatNode-6f794b48-182a-4340-9e3e-4cfaa40508d3",
+				"branching": "repeat",
+				"agamaData": {
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "email",
+							"assignedVariableName": "emailObj.email"
+						},
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "uiInput.matches",
+							"assignedVariableName": "emailObj.matches"
+						}
+					],
+					"nodeIcon": "material-symbols:equal",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "Variable assignment after successful email delivery"
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 124
+			},
+			"selected": true,
+			"dragging": false
 		}
 	],
 	"edges": [
@@ -3334,11 +3379,30 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_assignmentNode-f522dcd5-6881-4227-9634-617521d34069"
+		},
+		{
+			"id": "repeatNode-6f794b48-182a-4340-9e3e-4cfaa40508d3-assignmentNode-2a37e887-c294-4a03-9d13-3233416d319c",
+			"type": "default",
+			"source": "repeatNode-6f794b48-182a-4340-9e3e-4cfaa40508d3",
+			"target": "assignmentNode-2a37e887-c294-4a03-9d13-3233416d319c",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "repeat",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_repeatNode-6f794b48-182a-4340-9e3e-4cfaa40508d3_repeat"
 		}
 	],
 	"viewport": {
-		"x": -1677.1544199317605,
-		"y": -692.8815293990488,
+		"x": -1750.1544199317605,
+		"y": -853.8815293990488,
 		"zoom": 0.5759438211746787
 	}
 }
