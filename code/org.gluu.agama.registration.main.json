@@ -1815,10 +1815,10 @@
 				"branching": "success",
 				"agamaData": {
 					"javaClassName": "userRegistrationService getUserEntityByMail email",
-					"javaMethodName": "=",
+					"javaMethodName": "",
 					"javaVariableName": "",
 					"exceptionVariableField": "",
-					"callType": "Call static method",
+					"callType": "Create an instance",
 					"arguments": [
 						"user"
 					],
