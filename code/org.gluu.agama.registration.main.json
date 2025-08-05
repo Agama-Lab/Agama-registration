@@ -2197,6 +2197,55 @@
 				"width": 110,
 				"height": 60
 			},
+			"selected": false
+		},
+		{
+			"id": "assignmentNode-f522dcd5-6881-4227-9634-617521d34069",
+			"type": "assignmentNode",
+			"position": {
+				"x": 3511.4324974106235,
+				"y": 1766.327387083432
+			},
+			"data": {
+				"id": "assignmentNode-f522dcd5-6881-4227-9634-617521d34069",
+				"type": "assignmentNode",
+				"position": {
+					"x": 3511.4324974106235,
+					"y": 1766.327387083432
+				},
+				"previousNodeId": "whenNode-cd840ae7-047e-4622-82c8-e5fb3af5bc5a",
+				"branching": "success",
+				"agamaData": {
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "{ success: false, error: \"Unable_to_deliver_email_message\" }",
+							"assignedVariableName": "emailObj"
+						},
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "\"Unable to send OTP to the provided email address\"",
+							"assignedVariableName": "uiFeedback.errorMessage"
+						},
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "false",
+							"assignedVariableName": "emailVerificationSuccess"
+						}
+					],
+					"nodeIcon": "material-symbols:equal",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "Variable assignment for unsuccessful Email delivery"
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 124
+			},
 			"selected": true
 		}
 	],
@@ -3214,11 +3263,30 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_logNode-33441dd3-211a-46ec-9ccd-772f405377bc"
+		},
+		{
+			"id": "whenNode-cd840ae7-047e-4622-82c8-e5fb3af5bc5a-assignmentNode-f522dcd5-6881-4227-9634-617521d34069",
+			"type": "default",
+			"source": "whenNode-cd840ae7-047e-4622-82c8-e5fb3af5bc5a",
+			"target": "assignmentNode-f522dcd5-6881-4227-9634-617521d34069",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "Condition met",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_whenNode-cd840ae7-047e-4622-82c8-e5fb3af5bc5a_success"
 		}
 	],
 	"viewport": {
-		"x": -1625.1544199317605,
-		"y": -576.5065293990488,
+		"x": -1677.1544199317605,
+		"y": -752.5065293990488,
 		"zoom": 0.5759438211746787
 	}
 }
