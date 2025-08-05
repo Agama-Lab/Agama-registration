@@ -2061,9 +2061,9 @@
 				"agamaData": {
 					"javaClassName": "isPasswordPolicyMatch",
 					"javaMethodName": "userRegistrationService",
-					"javaVariableName": "call",
+					"javaVariableName": "isUsernamePolicyMatch",
 					"exceptionVariableField": "",
-					"callType": "Call static method",
+					"callType": "Call method on instance",
 					"arguments": [],
 					"nodeIcon": "material-symbols:code",
 					"nodeColor": "",
@@ -3044,8 +3044,8 @@
 		}
 	],
 	"viewport": {
-		"x": -937,
-		"y": -216,
+		"x": -889,
+		"y": -226,
 		"zoom": 0.5
 	}
 }
