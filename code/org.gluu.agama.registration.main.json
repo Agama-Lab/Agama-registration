@@ -1818,7 +1818,7 @@
 					"javaMethodName": "",
 					"javaVariableName": "",
 					"exceptionVariableField": "",
-					"callType": "Create an instance",
+					"callType": "Get class object",
 					"arguments": [
 						"user"
 					],
