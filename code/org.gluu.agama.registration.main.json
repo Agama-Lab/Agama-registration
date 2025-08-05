@@ -1507,8 +1507,8 @@
 			"id": "logNode-ca4920d4-6e75-4690-8f1b-ac13e1ad61a8",
 			"type": "logNode",
 			"position": {
-				"x": 515.7247664381905,
-				"y": 417.7176764594593
+				"x": 523.5762348669206,
+				"y": 416.40909838800434
 			},
 			"data": {
 				"id": "logNode-ca4920d4-6e75-4690-8f1b-ac13e1ad61a8",
@@ -1541,8 +1541,8 @@
 			"id": "logNode-e24c683f-1326-492f-86d3-524b4c6cc8de",
 			"type": "logNode",
 			"position": {
-				"x": 1201.0817292345598,
-				"y": 410.48336417363925
+				"x": 1301.8422407365956,
+				"y": 428.8034571740094
 			},
 			"data": {
 				"id": "logNode-e24c683f-1326-492f-86d3-524b4c6cc8de",
@@ -1614,8 +1614,8 @@
 			"id": "whenNode-b998f014-93f0-4954-a24e-c90b9167c915",
 			"type": "whenNode",
 			"position": {
-				"x": 765.7247664381905,
-				"y": 475.7176764594593
+				"x": 764.4161883667355,
+				"y": 460.01473960199917
 			},
 			"data": {
 				"id": "whenNode-b998f014-93f0-4954-a24e-c90b9167c915",
@@ -1634,7 +1634,7 @@
 							"variable": "otpValidationResult",
 							"operator": "is",
 							"dataValue": "True",
-							"combinator": "or"
+							"combinator": "none"
 						}
 					],
 					"nodeIcon": "ph:swap",
@@ -1643,14 +1643,15 @@
 					"descColor": "",
 					"displayName": "",
 					"hasComment": true,
-					"comment": ""
+					"comment": "Quit"
 				}
 			},
 			"measured": {
 				"width": 110,
 				"height": 60
 			},
-			"selected": true
+			"selected": true,
+			"dragging": false
 		}
 	],
 	"edges": [
