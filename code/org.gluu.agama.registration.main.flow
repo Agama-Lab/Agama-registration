@@ -35,10 +35,9 @@ Repeat 6 times max
           otpValidationResult = Call userRegistrationService validateOTPCode phone otpCreds.code 
           // Add log entry with validation result in log file.
           Log "@info OTP validation result is:" otpValidationResult
-          // Quit
-          When otpValidationResult is True
+          Quit When otpValidationResult is True
 // Maximum attempt reached
 Log "@info Maximum attempt reached"
 // User Registration flow failed
-it_zmcni = {success:false, error: "User registration flow reached max attempts try later"}
-Finish it_zmcni
+it_dfhkl = {success:false, error: "User registration flow reached max attempts try later"}
+Finish it_dfhkl
