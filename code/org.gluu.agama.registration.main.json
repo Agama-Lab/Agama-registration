@@ -2064,9 +2064,7 @@
 					"javaVariableName": "isUsernamePolicyMatch",
 					"exceptionVariableField": "",
 					"callType": "Call method on instance",
-					"arguments": [
-						"call"
-					],
+					"arguments": [],
 					"nodeIcon": "material-symbols:code",
 					"nodeColor": "",
 					"titleColor": "",
