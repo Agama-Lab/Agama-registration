@@ -381,7 +381,7 @@
 				"width": 110,
 				"height": 60
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false
 		},
 		{
@@ -2525,6 +2525,49 @@
 				"height": 124
 			},
 			"selected": false
+		},
+		{
+			"id": "whenNode-db1186ee-da20-47ef-b9c8-4f0285525351",
+			"type": "whenNode",
+			"position": {
+				"x": 5223.209941847075,
+				"y": 1996.1947665993382
+			},
+			"data": {
+				"id": "whenNode-db1186ee-da20-47ef-b9c8-4f0285525351",
+				"type": "whenNode",
+				"position": {
+					"x": 5252.726709585511,
+					"y": 1997.9310470545404
+				},
+				"previousNodeId": "callNode-242d70c8-f002-4487-8711-d192473c782c",
+				"agamaData": {
+					"variableField": "",
+					"valueField": "",
+					"conditionInputField": "",
+					"conditions": [
+						{
+							"variable": "inum",
+							"operator": "is not",
+							"dataValue": "null",
+							"combinator": "none"
+						}
+					],
+					"nodeIcon": "ph:swap",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "If user registration success"
+				}
+			},
+			"measured": {
+				"width": 110,
+				"height": 60
+			},
+			"selected": true,
+			"dragging": false
 		}
 	],
 	"edges": [
@@ -3693,11 +3736,30 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_logNode-dbc09e45-7e8e-46d1-a9c2-dc2d4ed67cb8"
+		},
+		{
+			"id": "callNode-242d70c8-f002-4487-8711-d192473c782c-whenNode-db1186ee-da20-47ef-b9c8-4f0285525351",
+			"type": "default",
+			"source": "callNode-242d70c8-f002-4487-8711-d192473c782c",
+			"target": "whenNode-db1186ee-da20-47ef-b9c8-4f0285525351",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_callNode-242d70c8-f002-4487-8711-d192473c782c"
 		}
 	],
 	"viewport": {
-		"x": -2443.15441993176,
-		"y": -921.256529399049,
+		"x": -2519.15441993176,
+		"y": -917.256529399049,
 		"zoom": 0.5759438211746787
 	}
 }
