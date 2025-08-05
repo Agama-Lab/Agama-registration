@@ -2072,7 +2072,7 @@
 					"displayName": "",
 					"hasComment": true,
 					"comment": "Password policy check",
-					"asssignedVariableName": ""
+					"asssignedVariableName": "call"
 				}
 			},
 			"measured": {
