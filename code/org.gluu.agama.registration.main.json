@@ -381,7 +381,7 @@
 				"width": 110,
 				"height": 60
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false
 		},
 		{
@@ -2455,7 +2455,7 @@
 			"id": "logNode-dbc09e45-7e8e-46d1-a9c2-dc2d4ed67cb8",
 			"type": "logNode",
 			"position": {
-				"x": 4763.144392316724,
+				"x": 4752.726709585511,
 				"y": 1939.9310470545404
 			},
 			"data": {
@@ -2482,7 +2482,49 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": true
+			"selected": false,
+			"dragging": false
+		},
+		{
+			"id": "callNode-242d70c8-f002-4487-8711-d192473c782c",
+			"type": "callNode",
+			"position": {
+				"x": 5002.726709585511,
+				"y": 1939.9310470545404
+			},
+			"data": {
+				"id": "callNode-242d70c8-f002-4487-8711-d192473c782c",
+				"type": "callNode",
+				"position": {
+					"x": 5002.726709585511,
+					"y": 1939.9310470545404
+				},
+				"previousNodeId": "logNode-dbc09e45-7e8e-46d1-a9c2-dc2d4ed67cb8",
+				"agamaData": {
+					"javaClassName": "",
+					"javaMethodName": "addNewUser",
+					"javaVariableName": "userRegistrationService",
+					"exceptionVariableField": "E",
+					"callType": "Call method on instance",
+					"arguments": [
+						"userInput",
+						"passwordInput"
+					],
+					"nodeIcon": "material-symbols:code",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "",
+					"asssignedVariableName": "inum"
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 124
+			},
+			"selected": false
 		}
 	],
 	"edges": [
@@ -3632,11 +3674,30 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_assignmentNode-e7b6233b-74f6-46a2-9297-c3d8bb6b021b"
+		},
+		{
+			"id": "logNode-dbc09e45-7e8e-46d1-a9c2-dc2d4ed67cb8-callNode-242d70c8-f002-4487-8711-d192473c782c",
+			"type": "default",
+			"source": "logNode-dbc09e45-7e8e-46d1-a9c2-dc2d4ed67cb8",
+			"target": "callNode-242d70c8-f002-4487-8711-d192473c782c",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_logNode-dbc09e45-7e8e-46d1-a9c2-dc2d4ed67cb8"
 		}
 	],
 	"viewport": {
-		"x": -2246.15441993176,
-		"y": -826.256529399049,
+		"x": -2443.15441993176,
+		"y": -921.256529399049,
 		"zoom": 0.5759438211746787
 	}
 }
