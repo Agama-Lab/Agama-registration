@@ -2071,7 +2071,8 @@
 					"descColor": "",
 					"displayName": "",
 					"hasComment": true,
-					"comment": "Password policy check"
+					"comment": "Password policy check",
+					"asssignedVariableName": "call"
 				}
 			},
 			"measured": {
