@@ -39,8 +39,9 @@ Repeat 6 times max
           Log "@error Invalid code provided "
           // Provide feedback to user.
           Log "@info OTP verification loop completed"
+          When otpValidationResult is True
 // Maximum attempt reached
 Log "@info Maximum attempt reached"
 // User Registration flow failed
-it_cuqdn = {success:false, error: "User registration flow reached max attempts try later"}
-Finish it_cuqdn
+it_bxdui = {success:false, error: "User registration flow reached max attempts try later"}
+Finish it_bxdui
