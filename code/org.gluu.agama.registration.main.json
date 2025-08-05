@@ -1801,8 +1801,8 @@
 			"id": "callNode-1b70bf43-6da3-4c51-849c-1809a45e1791",
 			"type": "callNode",
 			"position": {
-				"x": 1724.2529840872703,
-				"y": 464.3836356106651
+				"x": 1662.2529840872703,
+				"y": 468.3836356106651
 			},
 			"data": {
 				"id": "callNode-1b70bf43-6da3-4c51-849c-1809a45e1791",
@@ -1835,6 +1835,49 @@
 			"measured": {
 				"width": 170,
 				"height": 124
+			},
+			"selected": false,
+			"dragging": false
+		},
+		{
+			"id": "whenNode-5cea2a68-01d0-4e16-9ff2-a783bef6c9ea",
+			"type": "whenNode",
+			"position": {
+				"x": 1956.2529840872703,
+				"y": 520.3836356106651
+			},
+			"data": {
+				"id": "whenNode-5cea2a68-01d0-4e16-9ff2-a783bef6c9ea",
+				"type": "whenNode",
+				"position": {
+					"x": 1974.2529840872703,
+					"y": 522.3836356106651
+				},
+				"previousNodeId": "callNode-1b70bf43-6da3-4c51-849c-1809a45e1791",
+				"agamaData": {
+					"variableField": "",
+					"valueField": "",
+					"conditionInputField": "",
+					"conditions": [
+						{
+							"variable": "user",
+							"operator": "is",
+							"dataValue": "true",
+							"combinator": "none"
+						}
+					],
+					"nodeIcon": "ph:swap",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "If user not found"
+				}
+			},
+			"measured": {
+				"width": 110,
+				"height": 60
 			},
 			"selected": true,
 			"dragging": false
@@ -2684,11 +2727,30 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_whenNode-195e159f-c372-46d0-9e14-dabbaac215cf_success"
+		},
+		{
+			"id": "callNode-1b70bf43-6da3-4c51-849c-1809a45e1791-whenNode-5cea2a68-01d0-4e16-9ff2-a783bef6c9ea",
+			"type": "default",
+			"source": "callNode-1b70bf43-6da3-4c51-849c-1809a45e1791",
+			"target": "whenNode-5cea2a68-01d0-4e16-9ff2-a783bef6c9ea",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_callNode-1b70bf43-6da3-4c51-849c-1809a45e1791"
 		}
 	],
 	"viewport": {
-		"x": -236.5,
-		"y": -15.397271290712354,
+		"x": -390.5,
+		"y": -61.397271290712354,
 		"zoom": 0.5
 	}
 }
