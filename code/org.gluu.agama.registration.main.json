@@ -2045,7 +2045,7 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false
 		},
 		{
@@ -2065,11 +2065,13 @@
 				"previousNodeId": "assignmentNode-33c5b920-076e-477c-8577-c32f250aba65",
 				"agamaData": {
 					"javaClassName": "isPasswordPolicyMatch",
-					"javaMethodName": "userRegistrationService",
-					"javaVariableName": "isUsernamePolicyMatch",
+					"javaMethodName": "isPasswordPolicyMatch",
+					"javaVariableName": "userRegistrationService",
 					"exceptionVariableField": "",
 					"callType": "Call method on instance",
-					"arguments": [],
+					"arguments": [
+						"userPassword"
+					],
 					"nodeIcon": "material-symbols:code",
 					"nodeColor": "",
 					"titleColor": "",
@@ -2077,14 +2079,14 @@
 					"displayName": "",
 					"hasComment": true,
 					"comment": "Password policy check",
-					"asssignedVariableName": ""
+					"asssignedVariableName": "isPasswordPolicyMatch"
 				}
 			},
 			"measured": {
 				"width": 170,
 				"height": 124
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false
 		}
 	],
@@ -3049,7 +3051,7 @@
 		}
 	],
 	"viewport": {
-		"x": -425.5,
+		"x": -424.5,
 		"y": -165.875,
 		"zoom": 0.5
 	}
