@@ -1828,7 +1828,8 @@
 					"descColor": "",
 					"displayName": "",
 					"hasComment": true,
-					"comment": "Check user already exist or not with mail"
+					"comment": "Check user already exist or not with mail",
+					"asssignedVariableName": "user"
 				}
 			},
 			"measured": {
