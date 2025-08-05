@@ -301,8 +301,8 @@
 			"id": "whenNode-95f113c1-0fb1-442d-8d6d-b46a7d751bef",
 			"type": "whenNode",
 			"position": {
-				"x": 2828.425622813116,
-				"y": 995.9456921213272
+				"x": 2716.425622813116,
+				"y": 1121.9456921213273
 			},
 			"data": {
 				"id": "whenNode-95f113c1-0fb1-442d-8d6d-b46a7d751bef",
@@ -342,53 +342,11 @@
 			"dragging": false
 		},
 		{
-			"id": "callNode-1e9e2090-3521-421c-b1a9-e8bafc4b306c",
-			"type": "callNode",
-			"position": {
-				"x": 2952.5342222477316,
-				"y": 1093.3563062354308
-			},
-			"data": {
-				"id": "callNode-1e9e2090-3521-421c-b1a9-e8bafc4b306c",
-				"type": "callNode",
-				"position": {
-					"x": 1780,
-					"y": 480
-				},
-				"previousNodeId": "whenNode-95f113c1-0fb1-442d-8d6d-b46a7d751bef",
-				"agamaData": {
-					"javaClassName": "",
-					"javaMethodName": "getUserEntityByMail",
-					"javaVariableName": "userRegistrationService",
-					"exceptionVariableField": "",
-					"callType": "Call method on instance",
-					"arguments": [
-						"email"
-					],
-					"nodeIcon": "material-symbols:code",
-					"nodeColor": "",
-					"titleColor": "",
-					"descColor": "",
-					"displayName": "",
-					"hasComment": true,
-					"comment": "Call email service to send mail",
-					"asssignedVariableName": "user"
-				},
-				"branching": "success"
-			},
-			"measured": {
-				"width": 170,
-				"height": 124
-			},
-			"selected": true,
-			"dragging": false
-		},
-		{
 			"id": "whenNode-c1ae3675-fb2f-40f2-8290-c5190571a966",
 			"type": "whenNode",
 			"position": {
-				"x": 3166.2469346249245,
-				"y": 1066.1466981911676
+				"x": 2892.2469346249245,
+				"y": 1168.1466981911676
 			},
 			"data": {
 				"id": "whenNode-c1ae3675-fb2f-40f2-8290-c5190571a966",
@@ -430,8 +388,8 @@
 			"id": "callNode-861000cb-79c2-4b41-b03e-70f383658cd7",
 			"type": "callNode",
 			"position": {
-				"x": 3688.047665916818,
-				"y": 1226.8154011110105
+				"x": 3420.047665916818,
+				"y": 1272.8154011110105
 			},
 			"data": {
 				"id": "callNode-861000cb-79c2-4b41-b03e-70f383658cd7",
@@ -472,7 +430,7 @@
 			"id": "whenNode-51e74368-a147-4d88-a03f-76daebffff2c",
 			"type": "whenNode",
 			"position": {
-				"x": 3862.422972454326,
+				"x": 3612.422972454326,
 				"y": 1277.5134436690867
 			},
 			"data": {
@@ -515,7 +473,7 @@
 			"id": "logNode-dfc16af5-4d1b-4bd5-88b8-36562fd3c788",
 			"type": "logNode",
 			"position": {
-				"x": 3911.8483972087124,
+				"x": 3661.8483972087124,
 				"y": 1449.4486556330914
 			},
 			"data": {
@@ -550,7 +508,7 @@
 			"id": "logNode-2f6437c8-ca5d-4ed8-911f-2e1f106bc831",
 			"type": "logNode",
 			"position": {
-				"x": 3926.7102600771323,
+				"x": 3676.7102600771323,
 				"y": 1003.4902127903815
 			},
 			"data": {
@@ -585,7 +543,7 @@
 			"id": "rrfNode-059b5072-b04c-45b8-9ad0-e7220a2e53d8",
 			"type": "rrfNode",
 			"position": {
-				"x": 4137.643019741077,
+				"x": 3887.6430197410773,
 				"y": 1442.941320723533
 			},
 			"data": {
@@ -623,7 +581,7 @@
 			"id": "finishNode-782aa61d-c830-4605-8a09-95f9b81f264b",
 			"type": "finishNode",
 			"position": {
-				"x": 4547.755414568078,
+				"x": 4297.755414568078,
 				"y": 1450.3204188105285
 			},
 			"data": {
@@ -658,7 +616,7 @@
 			"id": "logNode-97b4346d-abae-4852-a5cd-ad05f1273f3c",
 			"type": "logNode",
 			"position": {
-				"x": 4326.229906738944,
+				"x": 4076.229906738944,
 				"y": 1450.9325960628946
 			},
 			"data": {
@@ -728,8 +686,8 @@
 			"id": "logNode-9f983eed-b40f-4907-af30-c04397e9a2ef",
 			"type": "logNode",
 			"position": {
-				"x": 3283.4315335139145,
-				"y": 847.0140567441017
+				"x": 3077.4315335139145,
+				"y": 919.0140567441017
 			},
 			"data": {
 				"id": "logNode-9f983eed-b40f-4907-af30-c04397e9a2ef",
@@ -802,8 +760,8 @@
 			"id": "callNode-e0397613-59c0-4299-b673-d3d21576d65d",
 			"type": "callNode",
 			"position": {
-				"x": 3301.781060003855,
-				"y": 1099.9914606167908
+				"x": 2983.781060003855,
+				"y": 1279.9914606167908
 			},
 			"data": {
 				"id": "callNode-e0397613-59c0-4299-b673-d3d21576d65d",
@@ -844,8 +802,8 @@
 			"id": "whenNode-f6e375d5-6064-4609-89e8-b0943c226c08",
 			"type": "whenNode",
 			"position": {
-				"x": 3485.9889866403514,
-				"y": 1164.4400945735028
+				"x": 3223.9889866403514,
+				"y": 1282.4400945735028
 			},
 			"data": {
 				"id": "whenNode-f6e375d5-6064-4609-89e8-b0943c226c08",
@@ -887,8 +845,8 @@
 			"id": "assignmentNode-0ba8010b-8bb2-493a-a9e3-8ce9c993690a",
 			"type": "assignmentNode",
 			"position": {
-				"x": 3539.8594105683605,
-				"y": 616.270778578645
+				"x": 3297.8594105683605,
+				"y": 764.270778578645
 			},
 			"data": {
 				"id": "assignmentNode-0ba8010b-8bb2-493a-a9e3-8ce9c993690a",
@@ -926,8 +884,8 @@
 			"id": "logNode-cf757d75-ec10-456e-ada2-9736b843df04",
 			"type": "logNode",
 			"position": {
-				"x": 3710.718821136721,
-				"y": 961.865519327889
+				"x": 3366.718821136721,
+				"y": 1057.8655193278892
 			},
 			"data": {
 				"id": "logNode-cf757d75-ec10-456e-ada2-9736b843df04",
@@ -1045,7 +1003,7 @@
 			"id": "assignmentNode-d8c56ab7-a159-4915-af18-bc30025ff928",
 			"type": "assignmentNode",
 			"position": {
-				"x": 4001.918089844828,
+				"x": 3751.918089844828,
 				"y": 775.998160774955
 			},
 			"data": {
@@ -2168,25 +2126,6 @@
 			"sourceHandle": "source_logNode-9706dda7-3f9f-43e8-8506-2a5cb6bb30db"
 		},
 		{
-			"id": "callNode-1e9e2090-3521-421c-b1a9-e8bafc4b306c-whenNode-c1ae3675-fb2f-40f2-8290-c5190571a966",
-			"type": "default",
-			"source": "callNode-1e9e2090-3521-421c-b1a9-e8bafc4b306c",
-			"target": "whenNode-c1ae3675-fb2f-40f2-8290-c5190571a966",
-			"labelBgPadding": [
-				8,
-				4
-			],
-			"labelBgBorderRadius": 4,
-			"label": "",
-			"labelBgStyle": {
-				"fill": "#009688",
-				"color": "#ffffff",
-				"fillOpacity": 0.7
-			},
-			"labelShowBg": true,
-			"sourceHandle": "source_callNode-1e9e2090-3521-421c-b1a9-e8bafc4b306c"
-		},
-		{
 			"id": "callNode-861000cb-79c2-4b41-b03e-70f383658cd7-whenNode-51e74368-a147-4d88-a03f-76daebffff2c",
 			"type": "default",
 			"source": "callNode-861000cb-79c2-4b41-b03e-70f383658cd7",
@@ -2465,24 +2404,6 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_logNode-cf757d75-ec10-456e-ada2-9736b843df04"
-		},
-		{
-			"source": "whenNode-95f113c1-0fb1-442d-8d6d-b46a7d751bef",
-			"sourceHandle": "source_whenNode-95f113c1-0fb1-442d-8d6d-b46a7d751bef_success",
-			"target": "callNode-1e9e2090-3521-421c-b1a9-e8bafc4b306c",
-			"targetHandle": "target_callNode-1e9e2090-3521-421c-b1a9-e8bafc4b306c",
-			"label": "Condition met",
-			"labelBgPadding": [
-				8,
-				4
-			],
-			"labelBgBorderRadius": 4,
-			"labelBgStyle": {
-				"fill": "#009688",
-				"color": "#ffffff",
-				"fillOpacity": 0.7
-			},
-			"id": "xy-edge__whenNode-95f113c1-0fb1-442d-8d6d-b46a7d751befsource_whenNode-95f113c1-0fb1-442d-8d6d-b46a7d751bef_success-callNode-1e9e2090-3521-421c-b1a9-e8bafc4b306ctarget_callNode-1e9e2090-3521-421c-b1a9-e8bafc4b306c"
 		},
 		{
 			"id": "callNode-dd90aa5b-fe63-4265-b610-0c8b30fa1ce4-whenNode-195e159f-c372-46d0-9e14-dabbaac215cf",
@@ -3069,8 +2990,8 @@
 		}
 	],
 	"viewport": {
-		"x": -1016.5,
-		"y": -279.875,
+		"x": -1007.5,
+		"y": -382.5,
 		"zoom": 0.5
 	}
 }
