@@ -1986,7 +1986,7 @@
 				"agamaData": {
 					"assignments": [],
 					"nodeIcon": "ph:globe-simple",
-					"templatePath": "\"password.ftlh\"",
+					"templatePath": "password.ftlh",
 					"asssignedVariableName": "passwordInput",
 					"nodeColor": "",
 					"titleColor": "",
