@@ -63,12 +63,12 @@ Repeat 6 times max
                          userPassword = passwordInput.userPassword
                          confirmPassword = passwordInput.confirmPassword
                          // Password policy check
-                         Call isUsernamePolicyMatch userRegistrationService 
+                         isPasswordPolicyMatch = Call userRegistrationService isPasswordPolicyMatch userPassword
           Otherwise
                // Name should contain only alphabets
                uiFeedback.errorMessage = "Name should contain only alphabets"
 // Maximum attempt reached
 Log "@info Maximum attempt reached"
 // User Registration flow failed
-it_lnvnq = {success:false, error: "User registration flow reached max attempts try later"}
-Finish it_lnvnq
+it_uoxwa = {success:false, error: "User registration flow reached max attempts try later"}
+Finish it_uoxwa
