@@ -38,8 +38,10 @@ Repeat 6 times max
           Quit When otpValidationResult is True
           // The maximum number of attempt has been reached.
           Log "@info Invalid code provided "
+          // Provide feedback to user.
+          Log "@info OTP verification loop completed"
 // Maximum attempt reached
 Log "@info Maximum attempt reached"
 // User Registration flow failed
-it_iljdy = {success:false, error: "User registration flow reached max attempts try later"}
-Finish it_iljdy
+it_jzkiz = {success:false, error: "User registration flow reached max attempts try later"}
+Finish it_jzkiz
