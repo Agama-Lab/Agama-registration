@@ -318,9 +318,9 @@
 					"conditionInputField": "",
 					"conditions": [
 						{
-							"variable": "userInput.userPassword",
+							"variable": "userPassword",
 							"operator": "is",
-							"dataValue": "userInput.confirmPassword",
+							"dataValue": "confirmPassword",
 							"combinator": "none"
 						}
 					],
@@ -338,7 +338,7 @@
 				"width": 110,
 				"height": 60
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false
 		},
 		{
@@ -1038,7 +1038,7 @@
 				"width": 110,
 				"height": 60
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false
 		},
 		{
@@ -3069,8 +3069,8 @@
 		}
 	],
 	"viewport": {
-		"x": -701.5,
-		"y": -245.875,
+		"x": -1016.5,
+		"y": -279.875,
 		"zoom": 0.5
 	}
 }
