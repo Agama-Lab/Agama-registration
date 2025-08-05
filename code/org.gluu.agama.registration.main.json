@@ -1541,8 +1541,8 @@
 			"id": "logNode-e24c683f-1326-492f-86d3-524b4c6cc8de",
 			"type": "logNode",
 			"position": {
-				"x": 1301.8422407365956,
-				"y": 428.8034571740094
+				"x": 1152.6643405907246,
+				"y": 422.26056681673435
 			},
 			"data": {
 				"id": "logNode-e24c683f-1326-492f-86d3-524b4c6cc8de",
@@ -1551,7 +1551,7 @@
 					"x": 1521.7247664381905,
 					"y": 655.7176764594593
 				},
-				"previousNodeId": "logNode-4bf6b2d6-58f4-4aba-900a-ddf2a68cb871",
+				"previousNodeId": "logNode-c1a7bd8c-4109-426d-8932-41f5b248bfcd",
 				"agamaData": {
 					"logMessage": "\"OTP verification loop completed\"",
 					"logLevel": "info",
@@ -1614,8 +1614,8 @@
 			"id": "quitNode-3da4beb5-75d7-4dba-854a-4b6dc9b8eaac",
 			"type": "quitNode",
 			"position": {
-				"x": 773.5762348669206,
-				"y": 416.40909838800434
+				"x": 730.3931585089052,
+				"y": 419.02625453091434
 			},
 			"data": {
 				"id": "quitNode-3da4beb5-75d7-4dba-854a-4b6dc9b8eaac",
@@ -1642,13 +1642,14 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": false
+			"selected": false,
+			"dragging": false
 		},
 		{
 			"id": "logNode-c1a7bd8c-4109-426d-8932-41f5b248bfcd",
 			"type": "logNode",
 			"position": {
-				"x": 1023.5762348669206,
+				"x": 933.2843479365247,
 				"y": 416.40909838800434
 			},
 			"data": {
@@ -1675,7 +1676,8 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": true
+			"selected": true,
+			"dragging": false
 		}
 	],
 	"edges": [
@@ -2428,11 +2430,29 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_quitNode-3da4beb5-75d7-4dba-854a-4b6dc9b8eaac"
+		},
+		{
+			"source": "logNode-c1a7bd8c-4109-426d-8932-41f5b248bfcd",
+			"sourceHandle": "source_logNode-c1a7bd8c-4109-426d-8932-41f5b248bfcd",
+			"target": "logNode-e24c683f-1326-492f-86d3-524b4c6cc8de",
+			"targetHandle": "target_logNode-e24c683f-1326-492f-86d3-524b4c6cc8de",
+			"label": "",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"id": "xy-edge__logNode-c1a7bd8c-4109-426d-8932-41f5b248bfcdsource_logNode-c1a7bd8c-4109-426d-8932-41f5b248bfcd-logNode-e24c683f-1326-492f-86d3-524b4c6cc8detarget_logNode-e24c683f-1326-492f-86d3-524b4c6cc8de"
 		}
 	],
 	"viewport": {
-		"x": -367.96285313201656,
-		"y": -229.43860404102736,
-		"zoom": 0.7641882603825831
+		"x": -175.5569461588682,
+		"y": -129.95585713345332,
+		"zoom": 0.5759438211746787
 	}
 }
