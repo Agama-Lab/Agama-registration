@@ -1815,13 +1815,11 @@
 				"branching": "success",
 				"agamaData": {
 					"javaClassName": "userRegistrationService getUserEntityByMail email",
-					"javaMethodName": "",
-					"javaVariableName": "",
+					"javaMethodName": "userRegistrationService getUserEntityByMail email",
+					"javaVariableName": "user",
 					"exceptionVariableField": "",
-					"callType": "Get class object",
-					"arguments": [
-						"user"
-					],
+					"callType": "Call method on instance",
+					"arguments": [],
 					"nodeIcon": "material-symbols:code",
 					"nodeColor": "",
 					"titleColor": "",
