@@ -1716,6 +1716,44 @@
 				"width": 170,
 				"height": 124
 			},
+			"selected": false
+		},
+		{
+			"id": "assignmentNode-37e29749-8da6-45d2-92a6-6537a580dee4",
+			"type": "assignmentNode",
+			"position": {
+				"x": 296.77319865855,
+				"y": 170.05094400256553
+			},
+			"data": {
+				"id": "assignmentNode-37e29749-8da6-45d2-92a6-6537a580dee4",
+				"type": "assignmentNode",
+				"position": {
+					"x": 296.77319865855,
+					"y": 170.05094400256553
+				},
+				"previousNodeId": "logNode-c88de401-6d44-41e9-a73c-9b541dcd1589",
+				"agamaData": {
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "otpValidationResult",
+							"assignedVariableName": "isPhoneVerified"
+						}
+					],
+					"nodeIcon": "material-symbols:equal",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": ""
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 124
+			},
 			"selected": true
 		}
 	],
@@ -2506,11 +2544,30 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_repeatNode-2d83485e-bb38-4806-a72a-94f4841e9eda_continue"
+		},
+		{
+			"id": "logNode-c88de401-6d44-41e9-a73c-9b541dcd1589-assignmentNode-37e29749-8da6-45d2-92a6-6537a580dee4",
+			"type": "default",
+			"source": "logNode-c88de401-6d44-41e9-a73c-9b541dcd1589",
+			"target": "assignmentNode-37e29749-8da6-45d2-92a6-6537a580dee4",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_logNode-c88de401-6d44-41e9-a73c-9b541dcd1589"
 		}
 	],
 	"viewport": {
-		"x": 275.4430538411319,
-		"y": 125.04414286654674,
-		"zoom": 0.5759438211746787
+		"x": 328.9748933727276,
+		"y": 18.485769799649916,
+		"zoom": 0.5
 	}
 }
