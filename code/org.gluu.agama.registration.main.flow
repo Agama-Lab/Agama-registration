@@ -55,11 +55,13 @@ Repeat 6 times max
                When user.empty is true
                     // Check user already exist or not with username
                     getUserEntityByUsername = Call userRegistrationService getUserEntityByUsername userName
+                    // user not found
+                    When userWithUid.empty is true
           Otherwise
                // Name should contain only alphabets
                uiFeedback.errorMessage = "Name should contain only alphabets"
 // Maximum attempt reached
 Log "@info Maximum attempt reached"
 // User Registration flow failed
-it_yjskk = {success:false, error: "User registration flow reached max attempts try later"}
-Finish it_yjskk
+it_zcdum = {success:false, error: "User registration flow reached max attempts try later"}
+Finish it_zcdum
