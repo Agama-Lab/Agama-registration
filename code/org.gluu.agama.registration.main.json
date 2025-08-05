@@ -1634,7 +1634,7 @@
 							"variable": "otpValidationResult",
 							"operator": "is",
 							"dataValue": "True",
-							"combinator": "none"
+							"combinator": "or"
 						}
 					],
 					"nodeIcon": "ph:swap",
