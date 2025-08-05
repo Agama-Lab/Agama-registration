@@ -75,6 +75,10 @@ Repeat 6 times max
                                    Log "@info Send Email Otp method called"
                                    // When OTP code null
                                    When otpCode is null
+                                        // Variable assignment for unsuccessful Email delivery
+                                        emailObj = { success: false, error: "Unable_to_deliver_email_message" }
+                                        uiFeedback.errorMessage = "Unable to send OTP to the provided email address"
+                                        emailVerificationSuccess = false
                               Otherwise
                                    // Password and Confirm password doesn't match
                                    Log "@trace Password and Confirm password doesn't match"
@@ -89,5 +93,5 @@ Repeat 6 times max
 // Maximum attempt reached
 Log "@info Maximum attempt reached"
 // User Registration flow failed
-it_geruj = {success:false, error: "User registration flow reached max attempts try later"}
-Finish it_geruj
+it_ysvyw = {success:false, error: "User registration flow reached max attempts try later"}
+Finish it_ysvyw
