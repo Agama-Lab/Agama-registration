@@ -1987,7 +1987,7 @@
 					"assignments": [],
 					"nodeIcon": "ph:globe-simple",
 					"templatePath": "\"password.ftlh\"",
-					"asssignedVariableName": "",
+					"asssignedVariableName": "passwordInput",
 					"nodeColor": "",
 					"titleColor": "",
 					"descColor": "",
