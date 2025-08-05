@@ -61,6 +61,7 @@ Repeat 6 times max
                          passwordInput = RRF "password.ftlh" uiFeedback
                          // Assign  password  to a variable
                          userPassword = passwordInput.userPassword
+                         confirmPassword = passwordInput.confirmPassword
                          // Password policy check
                          Call isUsernamePolicyMatch userRegistrationService 
           Otherwise
@@ -69,5 +70,5 @@ Repeat 6 times max
 // Maximum attempt reached
 Log "@info Maximum attempt reached"
 // User Registration flow failed
-it_ymhzc = {success:false, error: "User registration flow reached max attempts try later"}
-Finish it_ymhzc
+it_lnvnq = {success:false, error: "User registration flow reached max attempts try later"}
+Finish it_lnvnq
