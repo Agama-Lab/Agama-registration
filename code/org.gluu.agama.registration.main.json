@@ -2064,7 +2064,9 @@
 					"javaVariableName": "isUsernamePolicyMatch",
 					"exceptionVariableField": "",
 					"callType": "Call method on instance",
-					"arguments": [],
+					"arguments": [
+						"call"
+					],
 					"nodeIcon": "material-symbols:code",
 					"nodeColor": "",
 					"titleColor": "",
@@ -2072,7 +2074,7 @@
 					"displayName": "",
 					"hasComment": true,
 					"comment": "Password policy check",
-					"asssignedVariableName": "call"
+					"asssignedVariableName": ""
 				}
 			},
 			"measured": {
