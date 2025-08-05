@@ -686,8 +686,8 @@
 			"id": "logNode-9f983eed-b40f-4907-af30-c04397e9a2ef",
 			"type": "logNode",
 			"position": {
-				"x": 3415.4315335139145,
-				"y": 1021.0140567441017
+				"x": 3559.542811295688,
+				"y": 854.7652031585017
 			},
 			"data": {
 				"id": "logNode-9f983eed-b40f-4907-af30-c04397e9a2ef",
@@ -760,8 +760,8 @@
 			"id": "callNode-e0397613-59c0-4299-b673-d3d21576d65d",
 			"type": "callNode",
 			"position": {
-				"x": 3413.781060003855,
-				"y": 1265.9914606167908
+				"x": 3504.0676436743634,
+				"y": 1288.5631065344178
 			},
 			"data": {
 				"id": "callNode-e0397613-59c0-4299-b673-d3d21576d65d",
@@ -2127,8 +2127,8 @@
 			"id": "logNode-33441dd3-211a-46ec-9ccd-772f405377bc",
 			"type": "logNode",
 			"position": {
-				"x": 3073.938593797898,
-				"y": 1287.8197692727672
+				"x": 3011.4324974106235,
+				"y": 1508.327387083432
 			},
 			"data": {
 				"id": "logNode-33441dd3-211a-46ec-9ccd-772f405377bc",
@@ -2154,8 +2154,50 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false
+		},
+		{
+			"id": "whenNode-cd840ae7-047e-4622-82c8-e5fb3af5bc5a",
+			"type": "whenNode",
+			"position": {
+				"x": 3261.4324974106235,
+				"y": 1566.327387083432
+			},
+			"data": {
+				"id": "whenNode-cd840ae7-047e-4622-82c8-e5fb3af5bc5a",
+				"type": "whenNode",
+				"position": {
+					"x": 3261.4324974106235,
+					"y": 1566.327387083432
+				},
+				"previousNodeId": "logNode-33441dd3-211a-46ec-9ccd-772f405377bc",
+				"agamaData": {
+					"variableField": "",
+					"valueField": "",
+					"conditionInputField": "",
+					"conditions": [
+						{
+							"variable": "otpCode",
+							"operator": "is",
+							"dataValue": "null",
+							"combinator": "none"
+						}
+					],
+					"nodeIcon": "ph:swap",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "When OTP code null"
+				}
+			},
+			"measured": {
+				"width": 110,
+				"height": 60
+			},
+			"selected": true
 		}
 	],
 	"edges": [
@@ -3153,11 +3195,30 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_callNode-341aae33-9d14-4128-9b3e-8015b7ce4ba1"
+		},
+		{
+			"id": "logNode-33441dd3-211a-46ec-9ccd-772f405377bc-whenNode-cd840ae7-047e-4622-82c8-e5fb3af5bc5a",
+			"type": "default",
+			"source": "logNode-33441dd3-211a-46ec-9ccd-772f405377bc",
+			"target": "whenNode-cd840ae7-047e-4622-82c8-e5fb3af5bc5a",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_logNode-33441dd3-211a-46ec-9ccd-772f405377bc"
 		}
 	],
 	"viewport": {
-		"x": -1319.1544199317605,
-		"y": -474.2565293990489,
+		"x": -1625.1544199317605,
+		"y": -576.5065293990488,
 		"zoom": 0.5759438211746787
 	}
 }
