@@ -61,11 +61,13 @@ Repeat 6 times max
                          passwordInput = RRF "password.ftlh" uiFeedback
                          // Assign  password  to a variable
                          userPassword = passwordInput.userPassword
+                         // Password policy check
+                         Call userRegistrationService isPasswordPolicyMatch 
           Otherwise
                // Name should contain only alphabets
                uiFeedback.errorMessage = "Name should contain only alphabets"
 // Maximum attempt reached
 Log "@info Maximum attempt reached"
 // User Registration flow failed
-it_zbsfg = {success:false, error: "User registration flow reached max attempts try later"}
-Finish it_zbsfg
+it_tqukz = {success:false, error: "User registration flow reached max attempts try later"}
+Finish it_tqukz
