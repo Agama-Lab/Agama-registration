@@ -1883,21 +1883,21 @@
 			"dragging": false
 		},
 		{
-			"id": "callNode-4f82e6d4-49cc-4265-b614-e0aacdd1ace1",
+			"id": "callNode-2e0ff382-e22f-479f-9521-f41f2e3f8bcd",
 			"type": "callNode",
 			"position": {
-				"x": 2180.2529840872703,
-				"y": 318.3836356106651
+				"x": 2172.2529840872703,
+				"y": 278.63363561066507
 			},
 			"data": {
-				"id": "callNode-4f82e6d4-49cc-4265-b614-e0aacdd1ace1",
+				"id": "callNode-2e0ff382-e22f-479f-9521-f41f2e3f8bcd",
 				"type": "callNode",
 				"position": {
 					"x": 2190.2529840872703,
-					"y": 276.3836356106651
+					"y": 526.3836356106651
 				},
 				"previousNodeId": "whenNode-5cea2a68-01d0-4e16-9ff2-a783bef6c9ea",
-				"branching": "otherwise",
+				"branching": "continue",
 				"agamaData": {
 					"javaClassName": "",
 					"javaMethodName": "getUserEntityByUsername",
@@ -2790,28 +2790,28 @@
 			"sourceHandle": "source_callNode-1b70bf43-6da3-4c51-849c-1809a45e1791"
 		},
 		{
-			"id": "whenNode-5cea2a68-01d0-4e16-9ff2-a783bef6c9ea-callNode-4f82e6d4-49cc-4265-b614-e0aacdd1ace1",
+			"id": "whenNode-5cea2a68-01d0-4e16-9ff2-a783bef6c9ea-callNode-2e0ff382-e22f-479f-9521-f41f2e3f8bcd",
 			"type": "default",
 			"source": "whenNode-5cea2a68-01d0-4e16-9ff2-a783bef6c9ea",
-			"target": "callNode-4f82e6d4-49cc-4265-b614-e0aacdd1ace1",
+			"target": "callNode-2e0ff382-e22f-479f-9521-f41f2e3f8bcd",
 			"labelBgPadding": [
 				8,
 				4
 			],
 			"labelBgBorderRadius": 4,
-			"label": "otherwise",
+			"label": "continue",
 			"labelBgStyle": {
 				"fill": "#009688",
 				"color": "#ffffff",
 				"fillOpacity": 0.7
 			},
 			"labelShowBg": true,
-			"sourceHandle": "source_whenNode-5cea2a68-01d0-4e16-9ff2-a783bef6c9ea_otherwise"
+			"sourceHandle": "source_whenNode-5cea2a68-01d0-4e16-9ff2-a783bef6c9ea_continue"
 		}
 	],
 	"viewport": {
-		"x": -545.5,
-		"y": -111.13355174591445,
+		"x": -586.5,
+		"y": -42.258551745914474,
 		"zoom": 0.5
 	}
 }
