@@ -86,6 +86,7 @@ Repeat 6 times max
                                              emailObj.matches = uiInput.matches
                                              // Redirect to page asking for OTP received using email
                                              uiInput = RRF "emailOtp.ftlh" emailObj
+                                             Quit When uiInput.passcode is otpCode
                               Otherwise
                                    // Password and Confirm password doesn't match
                                    Log "@trace Password and Confirm password doesn't match"
@@ -100,5 +101,5 @@ Repeat 6 times max
 // Maximum attempt reached
 Log "@info Maximum attempt reached"
 // User Registration flow failed
-it_gzekt = {success:false, error: "User registration flow reached max attempts try later"}
-Finish it_gzekt
+it_pjxje = {success:false, error: "User registration flow reached max attempts try later"}
+Finish it_pjxje
