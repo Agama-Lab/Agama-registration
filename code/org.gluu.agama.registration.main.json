@@ -1722,8 +1722,8 @@
 			"id": "assignmentNode-37e29749-8da6-45d2-92a6-6537a580dee4",
 			"type": "assignmentNode",
 			"position": {
-				"x": 296.77319865855,
-				"y": 170.05094400256553
+				"x": 274.77319865855,
+				"y": 168.05094400256553
 			},
 			"data": {
 				"id": "assignmentNode-37e29749-8da6-45d2-92a6-6537a580dee4",
@@ -1753,6 +1753,49 @@
 			"measured": {
 				"width": 170,
 				"height": 124
+			},
+			"selected": false,
+			"dragging": false
+		},
+		{
+			"id": "whenNode-183c3fa0-c8d1-48cf-bcd6-912547c62e74",
+			"type": "whenNode",
+			"position": {
+				"x": 524.77319865855,
+				"y": 226.05094400256553
+			},
+			"data": {
+				"id": "whenNode-183c3fa0-c8d1-48cf-bcd6-912547c62e74",
+				"type": "whenNode",
+				"position": {
+					"x": 524.77319865855,
+					"y": 226.05094400256553
+				},
+				"previousNodeId": "assignmentNode-37e29749-8da6-45d2-92a6-6537a580dee4",
+				"agamaData": {
+					"variableField": "",
+					"valueField": "",
+					"conditionInputField": "",
+					"conditions": [
+						{
+							"variable": "isPhoneVerified",
+							"operator": "is",
+							"dataValue": "true",
+							"combinator": "none"
+						}
+					],
+					"nodeIcon": "ph:swap",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "Check if OTP validation was okay"
+				}
+			},
+			"measured": {
+				"width": 110,
+				"height": 60
 			},
 			"selected": true
 		}
@@ -2563,10 +2606,29 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_logNode-c88de401-6d44-41e9-a73c-9b541dcd1589"
+		},
+		{
+			"id": "assignmentNode-37e29749-8da6-45d2-92a6-6537a580dee4-whenNode-183c3fa0-c8d1-48cf-bcd6-912547c62e74",
+			"type": "default",
+			"source": "assignmentNode-37e29749-8da6-45d2-92a6-6537a580dee4",
+			"target": "whenNode-183c3fa0-c8d1-48cf-bcd6-912547c62e74",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_assignmentNode-37e29749-8da6-45d2-92a6-6537a580dee4"
 		}
 	],
 	"viewport": {
-		"x": 328.9748933727276,
+		"x": 98.97489337272759,
 		"y": 18.485769799649916,
 		"zoom": 0.5
 	}
