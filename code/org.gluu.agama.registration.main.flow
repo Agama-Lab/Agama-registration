@@ -115,11 +115,14 @@ Repeat 6 times max
                          Otherwise
                               // password policy
                               uiFeedback.errorMessage = "Password must be at least 6 characters long and contain at least one special character"
+                    Otherwise
+                         // User already registered with UID
+                         Log "@info User already registered with uid: %" userName
           Otherwise
                // Name should contain only alphabets
                uiFeedback.errorMessage = "Name should contain only alphabets"
 // Maximum attempt reached
 Log "@info Maximum attempt reached"
 // User Registration flow failed
-it_zixhd = {success:false, error: "User registration flow reached max attempts try later"}
-Finish it_zixhd
+it_lwkbz = {success:false, error: "User registration flow reached max attempts try later"}
+Finish it_lwkbz
