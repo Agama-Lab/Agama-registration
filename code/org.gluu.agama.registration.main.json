@@ -1685,20 +1685,21 @@
 			"dragging": false
 		},
 		{
-			"id": "logNode-1aef991e-cfe2-4c72-9d90-67448dbcab03",
+			"id": "logNode-c88de401-6d44-41e9-a73c-9b541dcd1589",
 			"type": "logNode",
 			"position": {
-				"x": 1402.6643405907246,
-				"y": 417.0517254511281
+				"x": 46.77319865854997,
+				"y": 170.05094400256553
 			},
 			"data": {
-				"id": "logNode-1aef991e-cfe2-4c72-9d90-67448dbcab03",
+				"id": "logNode-c88de401-6d44-41e9-a73c-9b541dcd1589",
 				"type": "logNode",
 				"position": {
-					"x": 1402.6643405907246,
-					"y": 417.0517254511281
+					"x": 46.77319865854997,
+					"y": 170.05094400256553
 				},
-				"previousNodeId": "assignmentNode-923927ea-efe5-4cb2-98f8-42e4f833f1f3",
+				"previousNodeId": "repeatNode-2d83485e-bb38-4806-a72a-94f4841e9eda",
+				"branching": "continue",
 				"agamaData": {
 					"logMessage": "\"OTP verification loop completed\"",
 					"logLevel": "info",
@@ -2488,28 +2489,28 @@
 			"id": "xy-edge__logNode-c1a7bd8c-4109-426d-8932-41f5b248bfcdsource_logNode-c1a7bd8c-4109-426d-8932-41f5b248bfcd-assignmentNode-923927ea-efe5-4cb2-98f8-42e4f833f1f3target_assignmentNode-923927ea-efe5-4cb2-98f8-42e4f833f1f3"
 		},
 		{
-			"id": "assignmentNode-923927ea-efe5-4cb2-98f8-42e4f833f1f3-logNode-1aef991e-cfe2-4c72-9d90-67448dbcab03",
+			"id": "repeatNode-2d83485e-bb38-4806-a72a-94f4841e9eda-logNode-c88de401-6d44-41e9-a73c-9b541dcd1589",
 			"type": "default",
-			"source": "assignmentNode-923927ea-efe5-4cb2-98f8-42e4f833f1f3",
-			"target": "logNode-1aef991e-cfe2-4c72-9d90-67448dbcab03",
+			"source": "repeatNode-2d83485e-bb38-4806-a72a-94f4841e9eda",
+			"target": "logNode-c88de401-6d44-41e9-a73c-9b541dcd1589",
 			"labelBgPadding": [
 				8,
 				4
 			],
 			"labelBgBorderRadius": 4,
-			"label": "",
+			"label": "continue",
 			"labelBgStyle": {
 				"fill": "#009688",
 				"color": "#ffffff",
 				"fillOpacity": 0.7
 			},
 			"labelShowBg": true,
-			"sourceHandle": "source_assignmentNode-923927ea-efe5-4cb2-98f8-42e4f833f1f3"
+			"sourceHandle": "source_repeatNode-2d83485e-bb38-4806-a72a-94f4841e9eda_continue"
 		}
 	],
 	"viewport": {
-		"x": -49.55694615886807,
-		"y": -115.95585713345326,
+		"x": 275.4430538411319,
+		"y": 125.04414286654674,
 		"zoom": 0.5759438211746787
 	}
 }
