@@ -67,7 +67,7 @@ Repeat 6 times max
                          // if password policy match
                          When isPasswordPolicyMatch is true
                               // Matching password 
-                              When userInput.userPassword is userInput.confirmPassword
+                              When userPassword is confirmPassword
                                    // Check user already exist or not with mail
                                    user = Call userRegistrationService getUserEntityByMail email
                                    // If user not found
@@ -114,5 +114,5 @@ Repeat 6 times max
 // Maximum attempt reached
 Log "@info Maximum attempt reached"
 // User Registration flow failed
-it_ccayn = {success:false, error: "User registration flow reached max attempts try later"}
-Finish it_ccayn
+it_fiicb = {success:false, error: "User registration flow reached max attempts try later"}
+Finish it_fiicb
