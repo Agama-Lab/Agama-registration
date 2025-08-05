@@ -67,5 +67,5 @@ Repeat 6 times max
 // Maximum attempt reached
 Log "@info Maximum attempt reached"
 // User Registration flow failed
-it_atbpv = {success:false, error: "User registration flow reached max attempts try later"}
-Finish it_atbpv
+it_zbsfg = {success:false, error: "User registration flow reached max attempts try later"}
+Finish it_zbsfg
