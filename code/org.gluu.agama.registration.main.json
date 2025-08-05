@@ -1993,7 +1993,8 @@
 					"descColor": "",
 					"displayName": "",
 					"hasComment": true,
-					"comment": "Retrieve user password from UI"
+					"comment": "Retrieve user password from UI",
+					"arguments": "uiFeedback"
 				}
 			},
 			"measured": {
