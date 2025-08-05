@@ -1819,7 +1819,9 @@
 					"javaVariableName": "userRegistrationService",
 					"exceptionVariableField": "",
 					"callType": "Call method on instance",
-					"arguments": [],
+					"arguments": [
+						"user"
+					],
 					"nodeIcon": "material-symbols:code",
 					"nodeColor": "",
 					"titleColor": "",
