@@ -58,12 +58,12 @@ Repeat 6 times max
                     // user not found
                     When userWithUid.empty is true
                          // Retrieve user password from UI
-                         passwordInput = RRF ""password.ftlh"" uiFeedback
+                         passwordInput = RRF "password.ftlh" uiFeedback
           Otherwise
                // Name should contain only alphabets
                uiFeedback.errorMessage = "Name should contain only alphabets"
 // Maximum attempt reached
 Log "@info Maximum attempt reached"
 // User Registration flow failed
-it_jtcps = {success:false, error: "User registration flow reached max attempts try later"}
-Finish it_jtcps
+it_rzcwn = {success:false, error: "User registration flow reached max attempts try later"}
+Finish it_rzcwn
