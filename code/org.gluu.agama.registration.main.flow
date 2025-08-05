@@ -51,11 +51,13 @@ Repeat 6 times max
           When isUsernamePolicyMatch is true
                // Check user already exist or not with mail
                user = Call userRegistrationService getUserEntityByMail email
+               // If user not found
+               When user is true
           Otherwise
                // Name should contain only alphabets
                uiFeedback.errorMessage = "Name should contain only alphabets"
 // Maximum attempt reached
 Log "@info Maximum attempt reached"
 // User Registration flow failed
-it_tztdg = {success:false, error: "User registration flow reached max attempts try later"}
-Finish it_tztdg
+it_oicgc = {success:false, error: "User registration flow reached max attempts try later"}
+Finish it_oicgc
