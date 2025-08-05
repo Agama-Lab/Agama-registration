@@ -101,6 +101,11 @@ Repeat 6 times max
                                                   Log "@info User % has been created" inum
                                                   // Show acknowledgement UI page for successful registration
                                                   acknowledgementInput = RRF "acknowledgement.ftlh" 
+                                                  // Finish the flow successfully
+                                                  Log "@info Finish the flow successfully"
+                                                  // Finish the flow successfully
+                                                  it_siaep = {success:true, data: { userId: "as9233Qz", property1: "value1"}}
+                                                  Finish it_siaep
                               Otherwise
                                    // Password and Confirm password doesn't match
                                    Log "@trace Password and Confirm password doesn't match"
@@ -115,5 +120,5 @@ Repeat 6 times max
 // Maximum attempt reached
 Log "@info Maximum attempt reached"
 // User Registration flow failed
-it_qjqru = {success:false, error: "User registration flow reached max attempts try later"}
-Finish it_qjqru
+it_yntxo = {success:false, error: "User registration flow reached max attempts try later"}
+Finish it_yntxo
