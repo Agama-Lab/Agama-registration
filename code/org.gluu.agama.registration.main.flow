@@ -40,9 +40,9 @@ Repeat 6 times max
           Log "@error Invalid code provided "
           // Provide feedback to user.
           uiFeedback.errorMessage = "Invalid code provided."
-          Log "@info OTP verification loop completed"
+     Log "@info OTP verification loop completed"
 // Maximum attempt reached
 Log "@info Maximum attempt reached"
 // User Registration flow failed
-it_umynz = {success:false, error: "User registration flow reached max attempts try later"}
-Finish it_umynz
+it_zgjro = {success:false, error: "User registration flow reached max attempts try later"}
+Finish it_zgjro
