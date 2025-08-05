@@ -1611,47 +1611,38 @@
 			"dragging": false
 		},
 		{
-			"id": "whenNode-b998f014-93f0-4954-a24e-c90b9167c915",
-			"type": "whenNode",
+			"id": "quitNode-3da4beb5-75d7-4dba-854a-4b6dc9b8eaac",
+			"type": "quitNode",
 			"position": {
-				"x": 764.4161883667355,
-				"y": 460.01473960199917
+				"x": 773.5762348669206,
+				"y": 416.40909838800434
 			},
 			"data": {
-				"id": "whenNode-b998f014-93f0-4954-a24e-c90b9167c915",
-				"type": "whenNode",
+				"id": "quitNode-3da4beb5-75d7-4dba-854a-4b6dc9b8eaac",
+				"type": "quitNode",
 				"position": {
-					"x": 765.7247664381905,
-					"y": 475.7176764594593
+					"x": 773.5762348669206,
+					"y": 416.40909838800434
 				},
 				"previousNodeId": "logNode-ca4920d4-6e75-4690-8f1b-ac13e1ad61a8",
 				"agamaData": {
-					"variableField": "",
-					"valueField": "",
-					"conditionInputField": "",
-					"conditions": [
-						{
-							"variable": "otpValidationResult",
-							"operator": "is",
-							"dataValue": "True",
-							"combinator": "none"
-						}
-					],
-					"nodeIcon": "ph:swap",
 					"nodeColor": "",
 					"titleColor": "",
 					"descColor": "",
 					"displayName": "",
 					"hasComment": true,
-					"comment": "Quit"
+					"comment": "",
+					"variableField": "otpValidationResult",
+					"valueField": "True",
+					"conditionInputField": "is",
+					"nodeIcon": "material-symbols:pip-exit-outline-rounded"
 				}
 			},
 			"measured": {
-				"width": 110,
-				"height": 60
+				"width": 170,
+				"height": 124
 			},
-			"selected": true,
-			"dragging": false
+			"selected": true
 		}
 	],
 	"edges": [
@@ -2368,10 +2359,10 @@
 			"sourceHandle": "source_callNode-844218f8-145c-4c38-ba7f-9f17162a4c1a"
 		},
 		{
-			"id": "logNode-ca4920d4-6e75-4690-8f1b-ac13e1ad61a8-whenNode-b998f014-93f0-4954-a24e-c90b9167c915",
+			"id": "logNode-ca4920d4-6e75-4690-8f1b-ac13e1ad61a8-quitNode-3da4beb5-75d7-4dba-854a-4b6dc9b8eaac",
 			"type": "default",
 			"source": "logNode-ca4920d4-6e75-4690-8f1b-ac13e1ad61a8",
-			"target": "whenNode-b998f014-93f0-4954-a24e-c90b9167c915",
+			"target": "quitNode-3da4beb5-75d7-4dba-854a-4b6dc9b8eaac",
 			"labelBgPadding": [
 				8,
 				4
