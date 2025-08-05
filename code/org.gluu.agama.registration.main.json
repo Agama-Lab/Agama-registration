@@ -1815,7 +1815,7 @@
 				"branching": "success",
 				"agamaData": {
 					"javaClassName": "userRegistrationService getUserEntityByMail email",
-					"javaMethodName": "getUserEntityByMail email",
+					"javaMethodName": "getUserEntityByMail",
 					"javaVariableName": "userRegistrationService",
 					"exceptionVariableField": "",
 					"callType": "Call method on instance",
