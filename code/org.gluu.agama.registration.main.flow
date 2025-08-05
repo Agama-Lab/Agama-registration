@@ -54,7 +54,7 @@ Repeat 6 times max
                // If user not found
                When user.empty is true
                     // Check user already exist or not with username
-                    getUserEntityByUsername = Call userRegistrationService getUserEntityByUsername userName
+                    userWithUid = Call userRegistrationService getUserEntityByUsername userName
                     // user not found
                     When userWithUid.empty is true
           Otherwise
@@ -63,5 +63,5 @@ Repeat 6 times max
 // Maximum attempt reached
 Log "@info Maximum attempt reached"
 // User Registration flow failed
-it_zcdum = {success:false, error: "User registration flow reached max attempts try later"}
-Finish it_zcdum
+it_uirwr = {success:false, error: "User registration flow reached max attempts try later"}
+Finish it_uirwr
