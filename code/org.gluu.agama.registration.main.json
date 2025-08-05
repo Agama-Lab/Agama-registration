@@ -1160,7 +1160,7 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false
 		},
 		{
@@ -1801,8 +1801,8 @@
 			"id": "callNode-1b70bf43-6da3-4c51-849c-1809a45e1791",
 			"type": "callNode",
 			"position": {
-				"x": 1662.2529840872703,
-				"y": 468.3836356106651
+				"x": 1554.2529840872703,
+				"y": 440.3836356106651
 			},
 			"data": {
 				"id": "callNode-1b70bf43-6da3-4c51-849c-1809a45e1791",
@@ -1843,8 +1843,8 @@
 			"id": "whenNode-5cea2a68-01d0-4e16-9ff2-a783bef6c9ea",
 			"type": "whenNode",
 			"position": {
-				"x": 1858.2529840872703,
-				"y": 522.3836356106651
+				"x": 1762.2529840872703,
+				"y": 498.3836356106651
 			},
 			"data": {
 				"id": "whenNode-5cea2a68-01d0-4e16-9ff2-a783bef6c9ea",
@@ -1886,8 +1886,8 @@
 			"id": "callNode-8a10bc5d-f1ef-48c9-aad9-015e95fc4016",
 			"type": "callNode",
 			"position": {
-				"x": 1914.2529840872703,
-				"y": 674.3836356106651
+				"x": 1862.2529840872703,
+				"y": 634.3836356106651
 			},
 			"data": {
 				"id": "callNode-8a10bc5d-f1ef-48c9-aad9-015e95fc4016",
@@ -1913,7 +1913,7 @@
 					"descColor": "",
 					"displayName": "",
 					"hasComment": true,
-					"comment": "",
+					"comment": "Check user already exist or not with username",
 					"asssignedVariableName": "getUserEntityByUsername"
 				}
 			},
@@ -1921,7 +1921,7 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false
 		}
 	],
@@ -2810,8 +2810,8 @@
 		}
 	],
 	"viewport": {
-		"x": -596,
-		"y": -159,
+		"x": -545,
+		"y": -84,
 		"zoom": 0.5
 	}
 }
