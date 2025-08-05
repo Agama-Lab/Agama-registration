@@ -388,8 +388,8 @@
 			"id": "callNode-861000cb-79c2-4b41-b03e-70f383658cd7",
 			"type": "callNode",
 			"position": {
-				"x": 4099.14979377082,
-				"y": 1426.71212149575
+				"x": 4131.14979377082,
+				"y": 1382.71212149575
 			},
 			"data": {
 				"id": "callNode-861000cb-79c2-4b41-b03e-70f383658cd7",
@@ -473,8 +473,8 @@
 			"id": "logNode-dfc16af5-4d1b-4bd5-88b8-36562fd3c788",
 			"type": "logNode",
 			"position": {
-				"x": 4521.281315561256,
-				"y": 1482.503533812283
+				"x": 4529.281315561256,
+				"y": 1406.503533812283
 			},
 			"data": {
 				"id": "logNode-dfc16af5-4d1b-4bd5-88b8-36562fd3c788",
@@ -760,8 +760,8 @@
 			"id": "callNode-e0397613-59c0-4299-b673-d3d21576d65d",
 			"type": "callNode",
 			"position": {
-				"x": 3693.3222132913907,
-				"y": 1389.2673729361386
+				"x": 3703.3222132913907,
+				"y": 1355.2673729361386
 			},
 			"data": {
 				"id": "callNode-e0397613-59c0-4299-b673-d3d21576d65d",
@@ -2700,8 +2700,8 @@
 					"hasComment": true,
 					"comment": "Finish the flow successfully",
 					"flowfilename": "",
-					"returnVariable": "{ userId: \"as9233Qz\", property1: \"value1\"}",
-					"finishMode": "withSuccess",
+					"returnVariable": "userName",
+					"finishMode": "withVariable",
 					"nodeIcon": "material-symbols:line-end-square-rounded"
 				}
 			},
@@ -3976,8 +3976,8 @@
 		}
 	],
 	"viewport": {
-		"x": -2137.397321926492,
-		"y": -762.0361160023363,
+		"x": -2133.397321926492,
+		"y": -913.0361160023363,
 		"zoom": 0.5
 	}
 }
