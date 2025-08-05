@@ -1633,7 +1633,7 @@
 					"hasComment": true,
 					"comment": "",
 					"variableField": "otpValidationResult",
-					"valueField": "True",
+					"valueField": "true",
 					"conditionInputField": "is",
 					"nodeIcon": "material-symbols:pip-exit-outline-rounded"
 				}
@@ -1642,7 +1642,7 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false
 		},
 		{
@@ -1715,7 +1715,7 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": true
+			"selected": false
 		}
 	],
 	"edges": [
@@ -2508,8 +2508,8 @@
 		}
 	],
 	"viewport": {
-		"x": -273.5569461588682,
-		"y": -132.95585713345332,
+		"x": -88.55694615886819,
+		"y": -112.95585713345332,
 		"zoom": 0.5759438211746787
 	}
 }
