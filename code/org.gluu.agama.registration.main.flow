@@ -121,5 +121,5 @@ Repeat 6 times max
 // Maximum attempt reached
 Log "@info Maximum attempt reached"
 // User Registration flow failed
-it_zuapa = {success:false, error: "User registration flow reached max attempts try later"}
-Finish it_zuapa
+it_idhym = {success:false, error: "User registration flow reached max attempts try later"}
+Finish it_idhym
