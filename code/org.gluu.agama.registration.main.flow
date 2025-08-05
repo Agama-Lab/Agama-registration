@@ -62,12 +62,12 @@ Repeat 6 times max
                          // Assign  password  to a variable
                          userPassword = passwordInput.userPassword
                          // Password policy check
-                         call = Call isUsernamePolicyMatch userRegistrationService 
+                         Call call userRegistrationService isUsernamePolicyMatch
           Otherwise
                // Name should contain only alphabets
                uiFeedback.errorMessage = "Name should contain only alphabets"
 // Maximum attempt reached
 Log "@info Maximum attempt reached"
 // User Registration flow failed
-it_yhwvq = {success:false, error: "User registration flow reached max attempts try later"}
-Finish it_yhwvq
+it_ahydq = {success:false, error: "User registration flow reached max attempts try later"}
+Finish it_ahydq
