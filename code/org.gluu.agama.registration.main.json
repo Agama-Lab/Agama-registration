@@ -1914,22 +1914,22 @@
 					"displayName": "",
 					"hasComment": true,
 					"comment": "Check user already exist or not with username",
-					"asssignedVariableName": "getUserEntityByUsername"
+					"asssignedVariableName": "userWithUid"
 				}
 			},
 			"measured": {
 				"width": 170,
 				"height": 124
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false
 		},
 		{
 			"id": "whenNode-4fedb1a0-8c54-4965-a1ba-ed1d5cf34bcd",
 			"type": "whenNode",
 			"position": {
-				"x": 2072.2529840872703,
-				"y": 696.3836356106651
+				"x": 2066.2529840872703,
+				"y": 710.3836356106651
 			},
 			"data": {
 				"id": "whenNode-4fedb1a0-8c54-4965-a1ba-ed1d5cf34bcd",
@@ -1964,7 +1964,7 @@
 				"width": 110,
 				"height": 60
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false
 		}
 	],
@@ -2872,8 +2872,8 @@
 		}
 	],
 	"viewport": {
-		"x": -655,
-		"y": -189,
+		"x": -675,
+		"y": -180,
 		"zoom": 0.5
 	}
 }
