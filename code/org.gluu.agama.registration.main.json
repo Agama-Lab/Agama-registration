@@ -2060,8 +2060,8 @@
 				"previousNodeId": "assignmentNode-33c5b920-076e-477c-8577-c32f250aba65",
 				"agamaData": {
 					"javaClassName": "",
-					"javaMethodName": "isPasswordPolicyMatch",
-					"javaVariableName": "userRegistrationService",
+					"javaMethodName": "userRegistrationService",
+					"javaVariableName": "isUsernamePolicyMatch",
 					"exceptionVariableField": "",
 					"callType": "Call method on instance",
 					"arguments": [],
