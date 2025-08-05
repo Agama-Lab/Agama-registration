@@ -1843,8 +1843,8 @@
 			"id": "whenNode-5cea2a68-01d0-4e16-9ff2-a783bef6c9ea",
 			"type": "whenNode",
 			"position": {
-				"x": 1956.2529840872703,
-				"y": 520.3836356106651
+				"x": 1940.2529840872703,
+				"y": 526.3836356106651
 			},
 			"data": {
 				"id": "whenNode-5cea2a68-01d0-4e16-9ff2-a783bef6c9ea",
@@ -1860,7 +1860,7 @@
 					"conditionInputField": "",
 					"conditions": [
 						{
-							"variable": "user",
+							"variable": "user.empty",
 							"operator": "is",
 							"dataValue": "true",
 							"combinator": "none"
