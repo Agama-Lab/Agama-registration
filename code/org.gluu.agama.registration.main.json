@@ -1886,8 +1886,8 @@
 			"id": "callNode-4f82e6d4-49cc-4265-b614-e0aacdd1ace1",
 			"type": "callNode",
 			"position": {
-				"x": 2190.2529840872703,
-				"y": 276.3836356106651
+				"x": 2180.2529840872703,
+				"y": 318.3836356106651
 			},
 			"data": {
 				"id": "callNode-4f82e6d4-49cc-4265-b614-e0aacdd1ace1",
@@ -1913,14 +1913,16 @@
 					"descColor": "",
 					"displayName": "",
 					"hasComment": true,
-					"comment": "Check user already exist or not with username"
+					"comment": "Check user already exist or not with username",
+					"asssignedVariableName": "userWithUid"
 				}
 			},
 			"measured": {
 				"width": 170,
 				"height": 124
 			},
-			"selected": true
+			"selected": true,
+			"dragging": false
 		}
 	],
 	"edges": [
@@ -2808,8 +2810,8 @@
 		}
 	],
 	"viewport": {
-		"x": -520.5,
-		"y": -89.39727129071235,
+		"x": -545.5,
+		"y": -111.13355174591445,
 		"zoom": 0.5
 	}
 }
