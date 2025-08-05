@@ -1796,6 +1796,45 @@
 			},
 			"selected": false,
 			"dragging": false
+		},
+		{
+			"id": "callNode-1b70bf43-6da3-4c51-849c-1809a45e1791",
+			"type": "callNode",
+			"position": {
+				"x": 1724.2529840872703,
+				"y": 464.3836356106651
+			},
+			"data": {
+				"id": "callNode-1b70bf43-6da3-4c51-849c-1809a45e1791",
+				"type": "callNode",
+				"position": {
+					"x": 1724.2529840872703,
+					"y": 464.3836356106651
+				},
+				"previousNodeId": "whenNode-195e159f-c372-46d0-9e14-dabbaac215cf",
+				"branching": "success",
+				"agamaData": {
+					"javaClassName": "userRegistrationService",
+					"javaMethodName": "getUserEntityByMail email",
+					"javaVariableName": "",
+					"exceptionVariableField": "",
+					"callType": "Call static method",
+					"arguments": [],
+					"nodeIcon": "material-symbols:code",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "Check user already exist or not with mail"
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 124
+			},
+			"selected": true,
+			"dragging": false
 		}
 	],
 	"edges": [
@@ -2623,6 +2662,25 @@
 				"fillOpacity": 0.7
 			},
 			"id": "xy-edge__assignmentNode-7eb62fb6-afd6-4f34-8ced-816bf6f6236esource_assignmentNode-7eb62fb6-afd6-4f34-8ced-816bf6f6236e-callNode-dd90aa5b-fe63-4265-b610-0c8b30fa1ce4target_callNode-dd90aa5b-fe63-4265-b610-0c8b30fa1ce4"
+		},
+		{
+			"id": "whenNode-195e159f-c372-46d0-9e14-dabbaac215cf-callNode-1b70bf43-6da3-4c51-849c-1809a45e1791",
+			"type": "default",
+			"source": "whenNode-195e159f-c372-46d0-9e14-dabbaac215cf",
+			"target": "callNode-1b70bf43-6da3-4c51-849c-1809a45e1791",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "Condition met",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_whenNode-195e159f-c372-46d0-9e14-dabbaac215cf_success"
 		}
 	],
 	"viewport": {
