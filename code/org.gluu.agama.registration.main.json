@@ -753,7 +753,7 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false
 		},
 		{
@@ -2051,8 +2051,8 @@
 			"id": "logNode-0a6314a2-fe61-4a98-86d8-57b34ff33abd",
 			"type": "logNode",
 			"position": {
-				"x": 2832.4204466009724,
-				"y": 1207.9508683334714
+				"x": 2634.4844747079346,
+				"y": 1286.0834888175652
 			},
 			"data": {
 				"id": "logNode-0a6314a2-fe61-4a98-86d8-57b34ff33abd",
@@ -2086,8 +2086,8 @@
 			"id": "callNode-341aae33-9d14-4128-9b3e-8015b7ce4ba1",
 			"type": "callNode",
 			"position": {
-				"x": 3039.237370242957,
-				"y": 1207.9508683334714
+				"x": 2849.9828006259295,
+				"y": 1284.347208362363
 			},
 			"data": {
 				"id": "callNode-341aae33-9d14-4128-9b3e-8015b7ce4ba1",
@@ -2121,6 +2121,40 @@
 				"height": 124
 			},
 			"selected": false,
+			"dragging": false
+		},
+		{
+			"id": "logNode-33441dd3-211a-46ec-9ccd-772f405377bc",
+			"type": "logNode",
+			"position": {
+				"x": 3073.938593797898,
+				"y": 1287.8197692727672
+			},
+			"data": {
+				"id": "logNode-33441dd3-211a-46ec-9ccd-772f405377bc",
+				"type": "logNode",
+				"position": {
+					"x": 3160.7526165580025,
+					"y": 1275.6658060863526
+				},
+				"previousNodeId": "callNode-341aae33-9d14-4128-9b3e-8015b7ce4ba1",
+				"agamaData": {
+					"logMessage": "\"Send Email Otp method called\"",
+					"logLevel": "info",
+					"nodeIcon": "octicon:log-16",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "Send Email Otp method called"
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 124
+			},
+			"selected": true,
 			"dragging": false
 		}
 	],
@@ -3100,11 +3134,30 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_logNode-0a6314a2-fe61-4a98-86d8-57b34ff33abd"
+		},
+		{
+			"id": "callNode-341aae33-9d14-4128-9b3e-8015b7ce4ba1-logNode-33441dd3-211a-46ec-9ccd-772f405377bc",
+			"type": "default",
+			"source": "callNode-341aae33-9d14-4128-9b3e-8015b7ce4ba1",
+			"target": "logNode-33441dd3-211a-46ec-9ccd-772f405377bc",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_callNode-341aae33-9d14-4128-9b3e-8015b7ce4ba1"
 		}
 	],
 	"viewport": {
-		"x": -1956.989337555001,
-		"y": -406.8369744146444,
-		"zoom": 0.7641882603825831
+		"x": -1319.1544199317605,
+		"y": -474.2565293990489,
+		"zoom": 0.5759438211746787
 	}
 }
