@@ -1971,7 +1971,7 @@
 			"id": "rrfNode-6b246948-227c-42ce-9cd5-cee6aa675823",
 			"type": "rrfNode",
 			"position": {
-				"x": 2104.2529840872703,
+				"x": 2102.2529840872703,
 				"y": 886.3836356106651
 			},
 			"data": {
@@ -2008,8 +2008,8 @@
 			"id": "assignmentNode-33c5b920-076e-477c-8577-c32f250aba65",
 			"type": "assignmentNode",
 			"position": {
-				"x": 2324.2529840872703,
-				"y": 882.3836356106651
+				"x": 2318.2529840872703,
+				"y": 888.3836356106651
 			},
 			"data": {
 				"id": "assignmentNode-33c5b920-076e-477c-8577-c32f250aba65",
@@ -2034,6 +2034,44 @@
 					"displayName": "",
 					"hasComment": true,
 					"comment": "Assign  password  to a variable"
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 124
+			},
+			"selected": false,
+			"dragging": false
+		},
+		{
+			"id": "callNode-5af8c71e-75c6-466c-9874-07929172cccc",
+			"type": "callNode",
+			"position": {
+				"x": 2532.2529840872703,
+				"y": 894.3836356106651
+			},
+			"data": {
+				"id": "callNode-5af8c71e-75c6-466c-9874-07929172cccc",
+				"type": "callNode",
+				"position": {
+					"x": 2574.2529840872703,
+					"y": 882.3836356106651
+				},
+				"previousNodeId": "assignmentNode-33c5b920-076e-477c-8577-c32f250aba65",
+				"agamaData": {
+					"javaClassName": "",
+					"javaMethodName": "isPasswordPolicyMatch",
+					"javaVariableName": "userRegistrationService",
+					"exceptionVariableField": "",
+					"callType": "Call method on instance",
+					"arguments": [],
+					"nodeIcon": "material-symbols:code",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "Password policy check"
 				}
 			},
 			"measured": {
@@ -2983,6 +3021,25 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_rrfNode-6b246948-227c-42ce-9cd5-cee6aa675823"
+		},
+		{
+			"id": "assignmentNode-33c5b920-076e-477c-8577-c32f250aba65-callNode-5af8c71e-75c6-466c-9874-07929172cccc",
+			"type": "default",
+			"source": "assignmentNode-33c5b920-076e-477c-8577-c32f250aba65",
+			"target": "callNode-5af8c71e-75c6-466c-9874-07929172cccc",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_assignmentNode-33c5b920-076e-477c-8577-c32f250aba65"
 		}
 	],
 	"viewport": {
