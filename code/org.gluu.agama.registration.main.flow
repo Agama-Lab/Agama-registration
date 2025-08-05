@@ -98,8 +98,10 @@ Repeat 6 times max
           Otherwise
                // Name should contain only alphabets
                uiFeedback.errorMessage = "Name should contain only alphabets"
+          // Check user already exist or not with mail
+          Call userRegistrationService getUserEntityByMail email#user 
 // Maximum attempt reached
 Log "@info Maximum attempt reached"
 // User Registration flow failed
-it_vfqqt = {success:false, error: "User registration flow reached max attempts try later"}
-Finish it_vfqqt
+it_jnyqo = {success:false, error: "User registration flow reached max attempts try later"}
+Finish it_jnyqo
