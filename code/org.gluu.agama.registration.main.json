@@ -345,8 +345,8 @@
 			"id": "callNode-1e9e2090-3521-421c-b1a9-e8bafc4b306c",
 			"type": "callNode",
 			"position": {
-				"x": 2956.5342222477316,
-				"y": 1001.3563062354308
+				"x": 2952.5342222477316,
+				"y": 1093.3563062354308
 			},
 			"data": {
 				"id": "callNode-1e9e2090-3521-421c-b1a9-e8bafc4b306c",
@@ -371,7 +371,7 @@
 					"descColor": "",
 					"displayName": "",
 					"hasComment": true,
-					"comment": "Check user already exist or not with mail",
+					"comment": "Call email service to send mail",
 					"asssignedVariableName": "user"
 				},
 				"branching": "success"
@@ -380,15 +380,15 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false
 		},
 		{
 			"id": "whenNode-c1ae3675-fb2f-40f2-8290-c5190571a966",
 			"type": "whenNode",
 			"position": {
-				"x": 3128.2469346249245,
-				"y": 1056.1466981911676
+				"x": 3166.2469346249245,
+				"y": 1066.1466981911676
 			},
 			"data": {
 				"id": "whenNode-c1ae3675-fb2f-40f2-8290-c5190571a966",
@@ -1038,7 +1038,7 @@
 				"width": 110,
 				"height": 60
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false
 		},
 		{
