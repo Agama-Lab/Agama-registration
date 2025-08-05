@@ -197,8 +197,8 @@
 				}
 			},
 			"measured": {
-				"width": 170,
-				"height": 124
+				"width": 168,
+				"height": 120
 			},
 			"selected": false,
 			"dragging": false
@@ -1797,7 +1797,47 @@
 				"width": 110,
 				"height": 60
 			},
-			"selected": true
+			"selected": false
+		},
+		{
+			"id": "assignmentNode-4ce84e55-8971-497f-b89e-81d75392940d",
+			"type": "assignmentNode",
+			"position": {
+				"x": 772.77319865855,
+				"y": 166.05094400256553
+			},
+			"data": {
+				"id": "assignmentNode-4ce84e55-8971-497f-b89e-81d75392940d",
+				"type": "assignmentNode",
+				"position": {
+					"x": 774.77319865855,
+					"y": 226.05094400256553
+				},
+				"previousNodeId": "whenNode-183c3fa0-c8d1-48cf-bcd6-912547c62e74",
+				"branching": "continue",
+				"agamaData": {
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "Null",
+							"assignedVariableName": "uiFeedback.errorMessage"
+						}
+					],
+					"nodeIcon": "material-symbols:equal",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": ""
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 124
+			},
+			"selected": true,
+			"dragging": false
 		}
 	],
 	"edges": [
@@ -2625,11 +2665,30 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_assignmentNode-37e29749-8da6-45d2-92a6-6537a580dee4"
+		},
+		{
+			"id": "whenNode-183c3fa0-c8d1-48cf-bcd6-912547c62e74-assignmentNode-4ce84e55-8971-497f-b89e-81d75392940d",
+			"type": "default",
+			"source": "whenNode-183c3fa0-c8d1-48cf-bcd6-912547c62e74",
+			"target": "assignmentNode-4ce84e55-8971-497f-b89e-81d75392940d",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "continue",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_whenNode-183c3fa0-c8d1-48cf-bcd6-912547c62e74_continue"
 		}
 	],
 	"viewport": {
-		"x": 98.97489337272759,
-		"y": 18.485769799649916,
+		"x": -5.025106627272407,
+		"y": -18.514230200350084,
 		"zoom": 0.5
 	}
 }
