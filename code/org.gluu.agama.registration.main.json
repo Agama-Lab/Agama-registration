@@ -1642,7 +1642,7 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false
 		},
 		{
@@ -1708,14 +1708,14 @@
 					"descColor": "",
 					"displayName": "",
 					"hasComment": true,
-					"comment": ""
+					"comment": "Provide feedback to user."
 				}
 			},
 			"measured": {
 				"width": 170,
 				"height": 124
 			},
-			"selected": false
+			"selected": true
 		}
 	],
 	"edges": [
@@ -2508,8 +2508,8 @@
 		}
 	],
 	"viewport": {
-		"x": -88.55694615886819,
-		"y": -112.95585713345332,
+		"x": -87.55694615886819,
+		"y": -111.95585713345329,
 		"zoom": 0.5759438211746787
 	}
 }
