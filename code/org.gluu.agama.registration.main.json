@@ -1814,8 +1814,8 @@
 				"previousNodeId": "whenNode-195e159f-c372-46d0-9e14-dabbaac215cf",
 				"branching": "success",
 				"agamaData": {
-					"javaClassName": "userRegistrationService",
-					"javaMethodName": "getUserEntityByMail email",
+					"javaClassName": "userRegistrationService getUserEntityByMail email",
+					"javaMethodName": "user",
 					"javaVariableName": "",
 					"exceptionVariableField": "",
 					"callType": "Call static method",
@@ -2684,8 +2684,8 @@
 		}
 	],
 	"viewport": {
-		"x": -235.5,
-		"y": -26.397271290712354,
+		"x": -236.5,
+		"y": -15.397271290712354,
 		"zoom": 0.5
 	}
 }
