@@ -1305,8 +1305,8 @@
 			"id": "callNode-8a10bc5d-f1ef-48c9-aad9-015e95fc4016",
 			"type": "callNode",
 			"position": {
-				"x": 1930.2529840872703,
-				"y": 312.9588461819542
+				"x": 1904.6282906247777,
+				"y": 302.4075018150455
 			},
 			"data": {
 				"id": "callNode-8a10bc5d-f1ef-48c9-aad9-015e95fc4016",
@@ -2286,8 +2286,8 @@
 			"id": "logNode-349324df-557f-4cf6-9f6e-67c7c052634f",
 			"type": "logNode",
 			"position": {
-				"x": 1905.9302480667016,
-				"y": 80.96431961580731
+				"x": 1896.886238609351,
+				"y": 102.06700834962467
 			},
 			"data": {
 				"id": "logNode-349324df-557f-4cf6-9f6e-67c7c052634f",
@@ -2308,6 +2308,45 @@
 					"displayName": "",
 					"hasComment": true,
 					"comment": "User already registered with mail"
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 124
+			},
+			"selected": false,
+			"dragging": false
+		},
+		{
+			"id": "assignmentNode-67f9e521-8458-4c32-bfeb-28df9e40ee16",
+			"type": "assignmentNode",
+			"position": {
+				"x": 2112.217535689508,
+				"y": 99.05233853050791
+			},
+			"data": {
+				"id": "assignmentNode-67f9e521-8458-4c32-bfeb-28df9e40ee16",
+				"type": "assignmentNode",
+				"position": {
+					"x": 2155.930248066701,
+					"y": 102.06700834962467
+				},
+				"previousNodeId": "logNode-349324df-557f-4cf6-9f6e-67c7c052634f",
+				"agamaData": {
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "\"User already Registered with this mail\"",
+							"assignedVariableName": "uiFeedback.errorMessage"
+						}
+					],
+					"nodeIcon": "material-symbols:equal",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "User already Registered"
 				}
 			},
 			"measured": {
@@ -3413,11 +3452,30 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_whenNode-5cea2a68-01d0-4e16-9ff2-a783bef6c9ea_otherwise"
+		},
+		{
+			"id": "logNode-349324df-557f-4cf6-9f6e-67c7c052634f-assignmentNode-67f9e521-8458-4c32-bfeb-28df9e40ee16",
+			"type": "default",
+			"source": "logNode-349324df-557f-4cf6-9f6e-67c7c052634f",
+			"target": "assignmentNode-67f9e521-8458-4c32-bfeb-28df9e40ee16",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_logNode-349324df-557f-4cf6-9f6e-67c7c052634f"
 		}
 	],
 	"viewport": {
-		"x": -608.7078860032841,
-		"y": 20.10209590076755,
+		"x": -698.7078860032841,
+		"y": 11.102095900767551,
 		"zoom": 0.6634225702985806
 	}
 }
