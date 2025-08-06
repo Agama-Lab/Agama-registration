@@ -66,7 +66,7 @@ Repeat 6 times max
                          isPasswordPolicyMatch = Call userRegistrationService passwordPolicyMatch userPassword
                          // if password policy match
                          When isPasswordPolicyMatch is true
-                              // Matching password 
+                              // Matching password
                               When userPassword is confirmPassword
                                    Log "@info Send-Email-page-trigger"
                                    // Call email service to send mail
@@ -130,10 +130,10 @@ Repeat 6 times max
                uiFeedback.errorMessage = "Name should contain only alphabets"
      Otherwise
           Log "@info OTP validation failed after 3 attempts"
-          it_ykwxs = {success:false, error: "ExceededTheNumberOfAttemptsAllowed"}
-          Finish it_ykwxs
+          it_yyada = {success:false, error: "ExceededTheNumberOfAttemptsAllowed"}
+          Finish it_yyada
 // Maximum attempt reached
 Log "@info Maximum attempt reached"
 // User Registration flow failed
-it_jmivr = {success:false, error: "User registration flow reached max attempts try later"}
-Finish it_jmivr
+it_urnjx = {success:false, error: "User registration flow reached max attempts try later"}
+Finish it_urnjx
