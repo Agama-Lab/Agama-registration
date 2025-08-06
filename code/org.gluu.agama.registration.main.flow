@@ -130,10 +130,10 @@ Repeat 6 times max
                uiFeedback.errorMessage = "Name should contain only alphabets"
      Otherwise
           Log "@info OTP validation failed after 3 attempts"
-          it_uyqpm = {success:false, error: "ExceededTheNumberOfAttemptsAllowed"}
-          Finish it_uyqpm
+          it_efupq = {success:false, error: "ExceededTheNumberOfAttemptsAllowed"}
+          Finish it_efupq
 // Maximum attempt reached
 Log "@info Maximum attempt reached"
 // User Registration flow failed
-it_dosfh = {success:false, error: "User registration flow reached max attempts try later"}
-Finish it_dosfh
+it_cpykp = {success:false, error: "User registration flow reached max attempts try later"}
+Finish it_cpykp
