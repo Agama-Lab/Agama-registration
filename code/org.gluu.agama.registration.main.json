@@ -419,8 +419,8 @@
 			"id": "callNode-dd90aa5b-fe63-4265-b610-0c8b30fa1ce4",
 			"type": "callNode",
 			"position": {
-				"x": 1036.7894858821317,
-				"y": 205.23597493268187
+				"x": 926.5946471978231,
+				"y": 227.95656022841564
 			},
 			"data": {
 				"id": "callNode-dd90aa5b-fe63-4265-b610-0c8b30fa1ce4",
@@ -460,8 +460,8 @@
 			"id": "whenNode-195e159f-c372-46d0-9e14-dabbaac215cf",
 			"type": "whenNode",
 			"position": {
-				"x": 1270.2529840872703,
-				"y": 258.3836356106651
+				"x": 1193.0029940817758,
+				"y": 284.51230870075887
 			},
 			"data": {
 				"id": "whenNode-195e159f-c372-46d0-9e14-dabbaac215cf",
@@ -546,8 +546,8 @@
 			"id": "assignmentNode-0552b448-e9ed-4afa-9898-3e8a31871817",
 			"type": "assignmentNode",
 			"position": {
-				"x": 1456.9720237269667,
-				"y": 59.628658998988726
+				"x": 1428.5712921072995,
+				"y": 100.52571253130947
 			},
 			"data": {
 				"id": "assignmentNode-0552b448-e9ed-4afa-9898-3e8a31871817",
@@ -1138,7 +1138,7 @@
 			"id": "whenNode-183c3fa0-c8d1-48cf-bcd6-912547c62e74",
 			"type": "whenNode",
 			"position": {
-				"x": 524.77319865855,
+				"x": 515.7291892011997,
 				"y": 226.05094400256553
 			},
 			"data": {
@@ -1174,14 +1174,15 @@
 				"width": 110,
 				"height": 60
 			},
-			"selected": false
+			"selected": false,
+			"dragging": false
 		},
 		{
 			"id": "assignmentNode-7eb62fb6-afd6-4f34-8ced-816bf6f6236e",
 			"type": "assignmentNode",
 			"position": {
-				"x": 824.77319865855,
-				"y": 210.05094400256553
+				"x": 705.4901258559478,
+				"y": 219.13917812085907
 			},
 			"data": {
 				"id": "assignmentNode-7eb62fb6-afd6-4f34-8ced-816bf6f6236e",
@@ -1220,8 +1221,8 @@
 			"id": "callNode-1b70bf43-6da3-4c51-849c-1809a45e1791",
 			"type": "callNode",
 			"position": {
-				"x": 1462.2529840872703,
-				"y": 304.3836356106651
+				"x": 1427.036076878883,
+				"y": 286.20716737407815
 			},
 			"data": {
 				"id": "callNode-1b70bf43-6da3-4c51-849c-1809a45e1791",
@@ -1262,8 +1263,8 @@
 			"id": "whenNode-5cea2a68-01d0-4e16-9ff2-a783bef6c9ea",
 			"type": "whenNode",
 			"position": {
-				"x": 1722.2529840872703,
-				"y": 314.3836356106651
+				"x": 1685.9000476140964,
+				"y": 333.6961331120388
 			},
 			"data": {
 				"id": "whenNode-5cea2a68-01d0-4e16-9ff2-a783bef6c9ea",
@@ -2347,6 +2348,41 @@
 					"displayName": "",
 					"hasComment": true,
 					"comment": "User already Registered"
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 124
+			},
+			"selected": false,
+			"dragging": false
+		},
+		{
+			"id": "logNode-5990aa38-61dc-4b28-afc3-387d82b79bb2",
+			"type": "logNode",
+			"position": {
+				"x": 703.2475796379318,
+				"y": 33.98843650668657
+			},
+			"data": {
+				"id": "logNode-5990aa38-61dc-4b28-afc3-387d82b79bb2",
+				"type": "logNode",
+				"position": {
+					"x": 765.7291892011997,
+					"y": -23.94905599743447
+				},
+				"previousNodeId": "whenNode-183c3fa0-c8d1-48cf-bcd6-912547c62e74",
+				"branching": "otherwise",
+				"agamaData": {
+					"logMessage": "\"OTP validation failed after 3 attempts\"",
+					"logLevel": "info",
+					"nodeIcon": "octicon:log-16",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": ""
 				}
 			},
 			"measured": {
@@ -3471,11 +3507,30 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_logNode-349324df-557f-4cf6-9f6e-67c7c052634f"
+		},
+		{
+			"id": "whenNode-183c3fa0-c8d1-48cf-bcd6-912547c62e74-logNode-5990aa38-61dc-4b28-afc3-387d82b79bb2",
+			"type": "default",
+			"source": "whenNode-183c3fa0-c8d1-48cf-bcd6-912547c62e74",
+			"target": "logNode-5990aa38-61dc-4b28-afc3-387d82b79bb2",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "otherwise",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_whenNode-183c3fa0-c8d1-48cf-bcd6-912547c62e74_otherwise"
 		}
 	],
 	"viewport": {
-		"x": -698.7078860032841,
-		"y": 11.102095900767551,
-		"zoom": 0.6634225702985806
+		"x": 4.954620160725881,
+		"y": 67.8356536603394,
+		"zoom": 0.8802590135631501
 	}
 }
