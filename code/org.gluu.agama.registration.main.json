@@ -546,8 +546,8 @@
 			"id": "assignmentNode-0552b448-e9ed-4afa-9898-3e8a31871817",
 			"type": "assignmentNode",
 			"position": {
-				"x": 1460.9720237269667,
-				"y": 79.62865899898873
+				"x": 1456.9720237269667,
+				"y": 59.628658998988726
 			},
 			"data": {
 				"id": "assignmentNode-0552b448-e9ed-4afa-9898-3e8a31871817",
@@ -2280,7 +2280,42 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": true
+			"selected": false
+		},
+		{
+			"id": "logNode-349324df-557f-4cf6-9f6e-67c7c052634f",
+			"type": "logNode",
+			"position": {
+				"x": 1905.9302480667016,
+				"y": 80.96431961580731
+			},
+			"data": {
+				"id": "logNode-349324df-557f-4cf6-9f6e-67c7c052634f",
+				"type": "logNode",
+				"position": {
+					"x": 1972.2529840872703,
+					"y": 64.38363561066512
+				},
+				"previousNodeId": "whenNode-5cea2a68-01d0-4e16-9ff2-a783bef6c9ea",
+				"branching": "otherwise",
+				"agamaData": {
+					"logMessage": "\"User already registered with mail: %\" email",
+					"logLevel": "info",
+					"nodeIcon": "octicon:log-16",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "User already registered with mail"
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 124
+			},
+			"selected": true,
+			"dragging": false
 		}
 	],
 	"edges": [
@@ -3359,11 +3394,30 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_logNode-d8ee44e9-a475-49d2-9f2c-530a94d3c08f"
+		},
+		{
+			"id": "whenNode-5cea2a68-01d0-4e16-9ff2-a783bef6c9ea-logNode-349324df-557f-4cf6-9f6e-67c7c052634f",
+			"type": "default",
+			"source": "whenNode-5cea2a68-01d0-4e16-9ff2-a783bef6c9ea",
+			"target": "logNode-349324df-557f-4cf6-9f6e-67c7c052634f",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "otherwise",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_whenNode-5cea2a68-01d0-4e16-9ff2-a783bef6c9ea_otherwise"
 		}
 	],
 	"viewport": {
-		"x": -1233.497049676946,
-		"y": -15.616874813771545,
-		"zoom": 0.7641882603825831
+		"x": -608.7078860032841,
+		"y": 20.10209590076755,
+		"zoom": 0.6634225702985806
 	}
 }
